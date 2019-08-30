@@ -1,4 +1,4 @@
-import { FETCH_QUESTIONS, CHECK_ANSWERS } from './actionTypes';
+import { FETCH_QUESTIONS, CHECK_ANSWERS, RESET_ANSWERS } from './actionTypes';
 import axios from 'axios';
 
 export const fetchQuestions = (callback) => dispatch => {
@@ -24,4 +24,8 @@ export const fetchQuestions = (callback) => dispatch => {
 
 export function checkAnswers() {
   return({ type: CHECK_ANSWERS });
+}
+
+export function resetAnswers() {
+  return({ type: RESET_ANSWERS });
 }

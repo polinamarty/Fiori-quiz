@@ -2,16 +2,34 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import './Question.scss';
+import autoBind from 'react-autobind';
 
 class Question extends Component {
+
+  constructor(props) {
+   super(props);
+   autoBind(this);
+ }
+
   static propTypes = {
     question: PropTypes.object.isRequired,
-    checkAnswers: PropTypes.object.isRequired
+    isAnswersChecked: PropTypes.bool.isRequired
+  };
+
+  state = {
+      checkedItems: new Map()
+  };
+
+  handleChange(e) {
+    console.log(this.state.checkedItems.get("1"));
+    const item = e.target.id;
+    const isChecked = e.target.checked;
+    this.setState(prevState => ({ checkedItems: prevState.checkedItems.set(item, isChecked) }));
   };
 
   render() {
     let { question } = this.props;
-    let { checkAnswers } = this.props;
+    let { isAnswersChecked } = this.props;
 
     return (
       <React.Fragment>
@@ -20,11 +38,11 @@ class Question extends Component {
             {question.question}
           </div>
           <div className="answer">
-            {question.answers.map(a => {
+            {question.answers.map((a, idx) => {
               return(
-              <div className={checkAnswers && a.correct ? "correct" : ""}>
-                <input type="checkbox"/>
-                <label>
+              <div className={isAnswersChecked && a.correct ? "correct" : ""}>
+                <input type="checkbox" id={idx} onClick={this.handleChange} />
+                <label for={idx} className={isAnswersChecked && !a.correct && this.state.checkedItems.get(idx.toString()) ? "wrong" : ""}>
                   {a.answer}
                 </label>
               </div>);
@@ -37,7 +55,7 @@ class Question extends Component {
 }
 
 const mapStateToProps = state => ({
-  checkAnswers: state.questions.checkAnswers
+  isAnswersChecked: state.questions.isAnswersChecked
 });
 
 export default connect( mapStateToProps)(Question);

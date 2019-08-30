@@ -1,8 +1,8 @@
-import { FETCH_QUESTIONS, CHECK_ANSWERS } from './actionTypes';
+import { FETCH_QUESTIONS, CHECK_ANSWERS, RESET_ANSWERS } from './actionTypes';
 
 const initialState = {
   questions: [],
-  checkAnswers: false
+  isAnswersChecked: false
 };
 
 export default function(state = initialState, action) {
@@ -15,7 +15,12 @@ export default function(state = initialState, action) {
     case CHECK_ANSWERS:
       return {
         ...state,
-        checkAnswers: true
+        isAnswersChecked: true
+      };
+    case RESET_ANSWERS:
+      return {
+        ...state,
+        isAnswersChecked: false
       };
     default:
       return state;

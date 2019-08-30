@@ -3,8 +3,7 @@ import autoBind from 'react-autobind';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import './App.css';
-import { fetchQuestions } from '../../services/questions/actions';
-import { checkAnswers } from '../../services/questions/actions';
+import { fetchQuestions, checkAnswers, resetAnswers } from '../../services/questions/actions';
 
 import Question from '../Question'
 
@@ -18,7 +17,9 @@ class App extends Component {
   static propTypes = {
     fetchQuestions: PropTypes.func.isRequired,
     checkAnswers: PropTypes.func.isRequired,
-    questions: PropTypes.array.isRequired
+    resetAnswers: PropTypes.func.isRequired,
+    questions: PropTypes.array.isRequired,
+    isAnswersChecked: PropTypes.bool.isRequired
   };
 
   componentDidMount() {
@@ -26,14 +27,19 @@ class App extends Component {
   };
 
   toggleCheckAnswers() {
-    this.props.checkAnswers();
+    let {isAnswersChecked} = this.props;
+    if (isAnswersChecked) {
+        this.props.resetAnswers();
+    } else this.props.checkAnswers();
   }
 
   render() {
     let { questions } = this.props;
     return (
       <React.Fragment>
-        <button onClick={this.toggleCheckAnswers}/>
+        <button onClick={this.toggleCheckAnswers}>
+          Check
+        </button>
         <ol>
         { questions.map(question => <Question question={question}/>)}
         </ol>
@@ -44,7 +50,8 @@ class App extends Component {
 }
 
 const mapStateToProps = state => ({
-  questions: state.questions.questions
+  questions: state.questions.questions,
+  isAnswersChecked: state.questions.isAnswersChecked
 });
 
-export default connect( mapStateToProps, { fetchQuestions, checkAnswers })(App);
+export default connect( mapStateToProps, { fetchQuestions, checkAnswers, resetAnswers })(App);
