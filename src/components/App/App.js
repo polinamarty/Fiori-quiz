@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import autoBind from 'react-autobind';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import './App.css';
+import './App.scss';
 import { fetchQuestions, checkAnswers, resetAnswers } from '../../services/questions/actions';
 
 import Question from '../Question'
@@ -31,7 +31,11 @@ class App extends Component {
     if (isAnswersChecked) {
         this.props.resetAnswers();
     } else this.props.checkAnswers();
-  }
+  };
+
+  shuffle(array) {
+      return array.sort(() => Math.random() - 0.5);
+  };
 
   render() {
     let { questions } = this.props;
@@ -41,7 +45,7 @@ class App extends Component {
           Check
         </button>
         <ol>
-        { questions.map(question => <Question question={question}/>)}
+        { this.shuffle(questions).map(question => <Question question={question}/>)}
         </ol>
       </React.Fragment>
     );

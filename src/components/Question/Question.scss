@@ -9,10 +9,11 @@
   .answer {
 
     .correct {
-      background-color: green;
+      color: green;
+      font-weight: bold;
     }
     .wrong {
-      background-color: red;
+      color: red;
     }
 
   }
