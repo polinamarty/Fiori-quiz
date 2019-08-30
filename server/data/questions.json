@@ -1,0 +1,310 @@
+  {
+    "questions" : [
+      {
+          "question": "What is the recommended development environment for building UI5 apps?\r\n",
+          "answers": [
+              {
+                  "answer": "Google Chrome Developer Tools",
+                  "correct": false
+              },
+              {
+                  "answer": "Mozilla Firefox",
+                  "correct": false
+              },
+              {
+                  "answer": "WDST (Web Development Super Tool)",
+                  "correct": false
+              },
+              {
+                  "answer": "SAP Web IDE ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What do you need destinations for?\r\nNote: There are 2 correct answers to this question.\r\n",
+          "answers": [
+              {
+                  "answer": "For accessing remote OData services, for example on the SAP Gateway demo system ES5 ",
+                  "correct": true
+              },
+              {
+                  "answer": "To automatically identify the user?s time zone and preferences",
+                  "correct": false
+              },
+              {
+                  "answer": "To connect to cloud services or on premise systems in a secure and standardized way ",
+                  "correct": true
+              },
+              {
+                  "answer": "To configure your cloud application for a specific data center and region",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What are the prerequisites for developing with UI5 Tooling?\r\nNote: There are 3 correct answers to this question.\r\n",
+          "answers": [
+              {
+                  "answer": "A Windows VM",
+                  "correct": false
+              },
+              {
+                  "answer": "A terminal ",
+                  "correct": true
+              },
+              {
+                  "answer": "Java Runtime Environment",
+                  "correct": false
+              },
+              {
+                  "answer": "Node.js ",
+                  "correct": true
+              },
+              {
+                  "answer": "An editor ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which SAP Web IDE Template includes the Flexible Column Layout?\r\n",
+          "answers": [
+              {
+                  "answer": "Master-Detail Application ",
+                  "correct": true
+              },
+              {
+                  "answer": "None of the available templates",
+                  "correct": false
+              },
+              {
+                  "answer": "Basic Template Application",
+                  "correct": false
+              },
+              {
+                  "answer": "Worklist Application",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What does the abbreviation CORS stand for?\r\n",
+          "answers": [
+              {
+                  "answer": "Cross Origin Resource Sharing ",
+                  "correct": true
+              },
+              {
+                  "answer": "Capital Operative Runtime Severity",
+                  "correct": false
+              },
+              {
+                  "answer": "Corrupt Origin Request Stop",
+                  "correct": false
+              },
+              {
+                  "answer": "Counter Objective Request Source",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What is the recommended way to avoid CORS issues in local development?\r\n",
+          "answers": [
+              {
+                  "answer": "Install a CORS proxy. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Use the mock server.",
+                  "correct": false
+              },
+              {
+                  "answer": "Change the browser settings.",
+                  "correct": false
+              },
+              {
+                  "answer": "Local development is not recommended in general.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Where can you find official guides for UI5 concepts?\r\n",
+          "answers": [
+              {
+                  "answer": "On Twitter",
+                  "correct": false
+              },
+              {
+                  "answer": "On the API Reference tab in the UI5 Demo Kit",
+                  "correct": false
+              },
+              {
+                  "answer": "On the Documentation tab in the UI5 Demo Kit ",
+                  "correct": true
+              },
+              {
+                  "answer": "In SAP Community blogs",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Where can you look for detailed explanations about UI5 controls in the UI5 Demo Kit?\r\n",
+          "answers": [
+              {
+                  "answer": "On the API Reference tab ",
+                  "correct": true
+              },
+              {
+                  "answer": "On the Tools tab",
+                  "correct": false
+              },
+              {
+                  "answer": "On the Samples tab",
+                  "correct": false
+              },
+              {
+                  "answer": "On the Demo Apps tab",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "How can you consume OpenUI5 officially?\r\nNote: There are 3 correct answers to this question.\r\n",
+          "answers": [
+              {
+                  "answer": "As a Unix package",
+                  "correct": false
+              },
+              {
+                  "answer": "Via NPM ",
+                  "correct": true
+              },
+              {
+                  "answer": "Via the Content Delivery Network ",
+                  "correct": true
+              },
+              {
+                  "answer": "As a download ",
+                  "correct": true
+              },
+              {
+                  "answer": "Via Maven Central",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "How can the Support Assistant help you with the development of UI5 applications?\r\n",
+          "answers": [
+              {
+                  "answer": "It helps you understand concepts.",
+                  "correct": false
+              },
+              {
+                  "answer": "It ensures consistent formatting.",
+                  "correct": false
+              },
+              {
+                  "answer": "It ensures your code is built according to best practices. ",
+                  "correct": true
+              },
+              {
+                  "answer": "It ensures your code is clean and understandable.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "For what can you use ESLint?\r\nNote: There are 3 correct answers to this question.\r\n",
+          "answers": [
+              {
+                  "answer": "To ensure code quality during development ",
+                  "correct": true
+              },
+              {
+                  "answer": "To find typical errors ",
+                  "correct": true
+              },
+              {
+                  "answer": "To configure the control properties",
+                  "correct": false
+              },
+              {
+                  "answer": "To check the UI5 version an app is running against",
+                  "correct": false
+              },
+              {
+                  "answer": "To ensure code quality in continuous integration builds ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Who or what is \"Rufus\"?\r\n",
+          "answers": [
+              {
+                  "answer": "Rufus is the name of one of the course instructors of week 1.",
+                  "correct": false
+              },
+              {
+                  "answer": "Rufus is the name of the openSAP learning platform.",
+                  "correct": false
+              },
+              {
+                  "answer": "Rufus is a validator script and your personal assistant for the course exercises. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Rufus stands for Recap Unit-For-Unit Statement and is the recommended principle of this course.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "How can you recover your exercise code if you cannot continue?\r\n",
+          "answers": [
+              {
+                  "answer": "Ask Rufus for help, relax, and watch him fix your code.",
+                  "correct": false
+              },
+              {
+                  "answer": "You can find the complete code of each unit on the public GitHub repository. ",
+                  "correct": true
+              },
+              {
+                  "answer": "The complete code of each unit is attached in section Downloads for the corresponding week.",
+                  "correct": false
+              },
+              {
+                  "answer": "You must delete your project and do everything again.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What does it mean when some lines are marked in yellow in a code block in the handout of an exercise?\r\n",
+          "answers": [
+              {
+                  "answer": "These lines need to be deleted in your own code block.",
+                  "correct": false
+              },
+              {
+                  "answer": "These lines deviate from what was shown in the unit video.",
+                  "correct": false
+              },
+              {
+                  "answer": "These lines need to be added or exchanged in your own code block. ",
+                  "correct": true
+              },
+              {
+                  "answer": "These lines contain a hidden code challenge.",
+                  "correct": false
+              }
+          ]
+      }
+  ]
+}

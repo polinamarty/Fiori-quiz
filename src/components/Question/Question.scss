@@ -1,0 +1,16 @@
+.question-container {
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+
+  .question {
+    font-weight: bold;
+  }
+  .answer {
+
+    .correct {
+      background-color: green;
+    }
+
+  }
+}
