@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import autoBind from 'react-autobind';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import './App.scss';
@@ -9,12 +8,12 @@ import Question from '../Question'
 
 class App extends Component {
 
-    constructor(props) {
-     super(props);
-     autoBind(this);
-   }
+   state = {
+       checkedItems: new Map(),
+       questions: []
+   };
 
-  static propTypes = {
+  propTypes = {
     fetchQuestions: PropTypes.func.isRequired,
     checkAnswers: PropTypes.func.isRequired,
     resetAnswers: PropTypes.func.isRequired,
@@ -23,31 +22,31 @@ class App extends Component {
   };
 
   componentDidMount() {
-      this.props.fetchQuestions();
+    this.props.fetchQuestions().then(()=>{
+       this.setState({ questions: this.shuffle(this.props.questions) });
+    })
   };
 
-  toggleCheckAnswers() {
-    let {isAnswersChecked} = this.props;
-    if (isAnswersChecked) {
+  toggleCheckAnswers = () => {
+    if (this.props.isAnswersChecked) {
         this.props.resetAnswers();
     } else this.props.checkAnswers();
   };
 
-  shuffle(array) {
+  shuffle = array => {
       return array.sort(() => Math.random() - 0.5);
   };
 
   render() {
-    let { questions } = this.props;
     return (
-      <React.Fragment>
+      <div className="app-container">
         <button onClick={this.toggleCheckAnswers}>
           Check
         </button>
-        <ol>
-        { this.shuffle(questions).map(question => <Question question={question}/>)}
-        </ol>
-      </React.Fragment>
+        <div>
+          {this.state.questions.map((question, index) => <Question question={question} questionNumber={index}/>)}
+        </div>
+      </div>
     );
   }
 
