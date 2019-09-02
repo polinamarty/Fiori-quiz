@@ -1,0 +1,1600 @@
+{
+   "questions":[
+      {
+          "question": "What impact does UX have on monetary values?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Increases user satisfaction.",
+                  "correct": false
+              },
+              {
+                  "answer": "Provides productivity gains and increases data quality. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Strengthens relationships with customers.",
+                  "correct": false
+              },
+              {
+                  "answer": "Provides training cost savings. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Reduces the number of change requests and user errors. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What is the principle of SAP UX strategy?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Design Strategy",
+                  "correct": false
+              },
+              {
+                  "answer": "New, Renew, Enablement",
+                  "correct": false
+              },
+              {
+                  "answer": "New, Renew, Empower ",
+                  "correct": true
+              },
+              {
+                  "answer": "Architecture and Technology",
+                  "correct": false
+              },
+              {
+                  "answer": "SAP Screen Personas",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What impact does SAP Fiori have on business?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Digitalization  ",
+                  "correct": true
+              },
+              {
+                  "answer": "Simplification  ",
+                  "correct": true
+              },
+              {
+                  "answer": "Support the web and open standards",
+                  "correct": false
+              },
+              {
+                  "answer": "Provides a user-centered approach",
+                  "correct": false
+              },
+              {
+                  "answer": "Leads to re-imagination of processes  ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which of the following are the current SAP UI Tools?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "SAPUI5 Application Development Tools  ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Screen Personas  ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP NetWeaver Portal ",
+                  "correct": false
+              },
+              {
+                  "answer": "Flexible UI Designer  ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP NetWeaver Gateway",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What are the current UI Technologies of SAP?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Business Server Pages",
+                  "correct": false
+              },
+              {
+                  "answer": "SAPUI5  ",
+                  "correct": true
+              },
+              {
+                  "answer": "Java Server Pages",
+                  "correct": false
+              },
+              {
+                  "answer": "Web Dynpro ABAP / Floorplan Manager  ",
+                  "correct": true
+              },
+              {
+                  "answer": "Dynpro  ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What are the goals of the SAPUI5 framework?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Provide a user interface technology for building and adapting client applications.  ",
+                  "correct": true
+              },
+              {
+                  "answer": "Provide a user interface technology for building and adapting server-based",
+                  "correct": false
+              },
+              {
+                  "answer": "applications.",
+                  "correct": false
+              },
+              {
+                  "answer": "Provide a lightweight programming model for desktop only applications.",
+                  "correct": false
+              },
+              {
+                  "answer": "Provide an extensible framework for building desktop and mobile applications.  ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What are the SAP Fiori principles?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Role-based  ",
+                  "correct": true
+              },
+              {
+                  "answer": "Adaptive  ",
+                  "correct": true
+              },
+              {
+                  "answer": "Creative",
+                  "correct": false
+              },
+              {
+                  "answer": "Coherent ",
+                  "correct": true
+              },
+              {
+                  "answer": "Complex",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of the following steps are part of the discover phase in the DLD?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Scope  ",
+                  "correct": true
+              },
+              {
+                  "answer": "Test",
+                  "correct": false
+              },
+              {
+                  "answer": "Implement",
+                  "correct": false
+              },
+              {
+                  "answer": "Research  ",
+                  "correct": true
+              },
+              {
+                  "answer": "Synthesize  ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which of the following steps are part of the design phase in the DLD?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Test",
+                  "correct": false
+              },
+              {
+                  "answer": "Validate  ",
+                  "correct": true
+              },
+              {
+                  "answer": "Prototype  ",
+                  "correct": true
+              },
+              {
+                  "answer": "Scope",
+                  "correct": false
+              },
+              {
+                  "answer": "Ideate  ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What is the relation between the model and the controller in the standard MVC\r\nimplementation?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "The controller modifies the model. ",
+                  "correct": true
+              },
+              {
+                  "answer": "The model notifies the controller about changes. ",
+                  "correct": true
+              },
+              {
+                  "answer": "The model updates the controller.",
+                  "correct": false
+              },
+              {
+                  "answer": "The controller sets the model visibility.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which model types are supported by SAPUI5?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "JSON model ",
+                  "correct": true
+              },
+              {
+                  "answer": "Resource model ",
+                  "correct": true
+              },
+              {
+                  "answer": "Translation model",
+                  "correct": false
+              },
+              {
+                  "answer": "XML Model ",
+                  "correct": true
+              },
+              {
+                  "answer": "OData model ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which OData versions are currently supported by SAPUI5?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "OData V2 ",
+                  "correct": true
+              },
+              {
+                  "answer": "OData V5",
+                  "correct": false
+              },
+              {
+                  "answer": "OData V4 ",
+                  "correct": true
+              },
+              {
+                  "answer": "OData V7",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which binding modes are supported by SAPUI5?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "One-time  ",
+                  "correct": true
+              },
+              {
+                  "answer": "One-way  ",
+                  "correct": true
+              },
+              {
+                  "answer": "Single-time-only",
+                  "correct": false
+              },
+              {
+                  "answer": "Two-way  ",
+                  "correct": true
+              },
+              {
+                  "answer": "Once",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "In which base class implementation is the setModel function implemented?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "sap.ui.base.ManagedObject  ",
+                  "correct": true
+              },
+              {
+                  "answer": "sap.ui.base.Object",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.ui.base.Interface",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.ui.model.base.BaseModel",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of the following are best practices when developing a SAPUI5 app?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Describe your app using a set of metadata. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Use the Synchronous Model Definition (SMD) syntax.",
+                  "correct": false
+              },
+              {
+                  "answer": "Minimize the code in the index.html file.  ",
+                  "correct": true
+              },
+              {
+                  "answer": "Make use of patterns.  ",
+                  "correct": true
+              },
+              {
+                  "answer": "Use an asynchronous model definition in your JavaScript code.  ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What approach gives you the most flexibility for your SAPUI5 app?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Using a controller-based approach.",
+                  "correct": false
+              },
+              {
+                  "answer": "Using a view-only based approach.",
+                  "correct": false
+              },
+              {
+                  "answer": "Implement complex UIs in the index.html file.",
+                  "correct": false
+              },
+              {
+                  "answer": "Using a component-based approach. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which control is used in the index.html file to support letterboxing if required?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "sap.ui.core.ComponentContainer",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.ui.core.Component",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.m.Shell  ",
+                  "correct": true
+              },
+              {
+                  "answer": "sap.ui.core.View",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What configuration steps are necessary to define a navigation route?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Configure a route in the manifest.json file.  ",
+                  "correct": true
+              },
+              {
+                  "answer": "Configure a target.  ",
+                  "correct": true
+              },
+              {
+                  "answer": "Assign at least one target to the route.  ",
+                  "correct": true
+              },
+              {
+                  "answer": "Activate routing in the sap.app.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Why does it make sense to use the navigation API of SAPUI5 and concepts such as\r\neventbus or the navcontainer functions of the base application?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Using the navigation API, it is possible to use bookmarks.  ",
+                  "correct": true
+              },
+              {
+                  "answer": "The eventbus concept is deprecated and should no longer be used.",
+                  "correct": false
+              },
+              {
+                  "answer": "Using the navigation API, the configuration of routes and targets are clearly separated from the application implementation.  ",
+                  "correct": true
+              },
+              {
+                  "answer": "The NavContainer of the App object is not accessible inside a component-based app.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "From which control does the sap.m.App control inherit navigation capabilities?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "sap.m.NavigationContainer",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.m.NavContainer  ",
+                  "correct": true
+              },
+              {
+                  "answer": "sap.ui.core.NavContainer",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Is it true to say that the sap.m.App control does not provide responsive behavior?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "That is true, the sap.m.App control does not provide responsive behavior.",
+                  "correct": false
+              },
+              {
+                  "answer": "It depends on the SAPUI5 version. From version 1.30 and later, the sap.m.App",
+                  "correct": false
+              },
+              {
+                  "answer": "control provides responsive behavior.",
+                  "correct": false
+              },
+              {
+                  "answer": "No, that is not true. The sap.m.App control provides responsive behavior.  ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What is the name of the aggregation of the sap.m.App control, or more precisely the name\r\nof the sap.m.NavContainer control, in which UI controls are aggregated?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "fullPages",
+                  "correct": false
+              },
+              {
+                  "answer": "pages  ",
+                  "correct": true
+              },
+              {
+                  "answer": "masterPages",
+                  "correct": false
+              },
+              {
+                  "answer": "detailPages",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "When is the use of a master-detail pattern not recommended?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "You need to offer complex filters for the master list of items.  ",
+                  "correct": true
+              },
+              {
+                  "answer": "You want to display a single object.",
+                  "correct": false
+              },
+              {
+                  "answer": "When you want to display different facets of the same object, data, or both.  ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which modes are provided by the sap.m.SplitAppMode enumeration?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "ShowHideMode  ",
+                  "correct": true
+              },
+              {
+                  "answer": "HideShowMode",
+                  "correct": false
+              },
+              {
+                  "answer": "StretchCompressMode ",
+                  "correct": true
+              },
+              {
+                  "answer": "PopoverMode ",
+                  "correct": true
+              },
+              {
+                  "answer": "ShrinkCozyMode",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What are the two aggregations provided by sap.m.SplitApp control to add page\r\nimplementations?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "mainPages",
+                  "correct": false
+              },
+              {
+                  "answer": "masterPages ",
+                  "correct": true
+              },
+              {
+                  "answer": "infoPages",
+                  "correct": false
+              },
+              {
+                  "answer": "detailPages ",
+                  "correct": true
+              },
+              {
+                  "answer": "detail",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What message types are known to SAPUI5?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Control message  ",
+                  "correct": true
+              },
+              {
+                  "answer": "UI message",
+                  "correct": false
+              },
+              {
+                  "answer": "Server message ",
+                  "correct": true
+              },
+              {
+                  "answer": "Log message",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "How do you access the MessageManager?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "It is a singleton and can be accessed by the getMessageManager function on the core object.  ",
+                  "correct": true
+              },
+              {
+                  "answer": "You have to instantiate the MessageManager using the constructor function.",
+                  "correct": false
+              },
+              {
+                  "answer": "Each UI control provides a function to access the MessageManager.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "In what configuration area of the manifest.json file can you activate automatic\r\nmessage creation?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "sap.app",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.ui",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.ui5 ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What layout control is used to achieve flexible and responsive layouts?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "VerticalLayout",
+                  "correct": false
+              },
+              {
+                  "answer": "FlexBox",
+                  "correct": false
+              },
+              {
+                  "answer": "Grid ",
+                  "correct": true
+              },
+              {
+                  "answer": "Splitter",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What aspects of the runtime environment can be accessed by the Device API of SAPUI5?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Operating system ",
+                  "correct": true
+              },
+              {
+                  "answer": "Screen size ",
+                  "correct": true
+              },
+              {
+                  "answer": "Orientation change ",
+                  "correct": true
+              },
+              {
+                  "answer": "Language",
+                  "correct": false
+              },
+              {
+                  "answer": "Touch-specific features ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What are the different content densities provided by SAPUI5?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "cozy ",
+                  "correct": true
+              },
+              {
+                  "answer": "large",
+                  "correct": false
+              },
+              {
+                  "answer": "condensed ",
+                  "correct": true
+              },
+              {
+                  "answer": "strict",
+                  "correct": false
+              },
+              {
+                  "answer": "compact ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What is the best approach to showing a UI control on a desktop only, and not on a mobile\r\ndevice?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Use the Device API to check the environment and call setVisible on the UI",
+                  "correct": false
+              },
+              {
+                  "answer": "control.",
+                  "correct": false
+              },
+              {
+                  "answer": "Use the UI control from sap.ui.commons. These UI controls can handle this",
+                  "correct": false
+              },
+              {
+                  "answer": "automatically.",
+                  "correct": false
+              },
+              {
+                  "answer": "Use the standard CSS class sapUiVisibleOnlyOnDesktop. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "You want to define a property with the name width to enhance a standard UI5 control.\r\nThe property should hold the current width of the UI control. What is the best approach to\r\ndefining the type of such a property?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Define the property width of the type string.",
+                  "correct": false
+              },
+              {
+                  "answer": "efine the property width of the type sap.ui.core.Integer.",
+                  "correct": false
+              },
+              {
+                  "answer": "Define the property width of the type sap.ui.core.CSSSize. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Define the property width of the type sap.ui.core.type.CSSSize.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which function must be called inside a control renderer to add the control ID to the DOM\r\ntree and support eventing?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "writeClasses",
+                  "correct": false
+              },
+              {
+                  "answer": "writeIcon",
+                  "correct": false
+              },
+              {
+                  "answer": "writeControlData ",
+                  "correct": true
+              },
+              {
+                  "answer": "write",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of the following statements are true with regard to implementing your own\r\nrenderer?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Implement the render function inside the control.",
+                  "correct": false
+              },
+              {
+                  "answer": "Implement a renderer class, derived from sap.ui.core.Renderer, in a separate file. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Implement the renderer using AMD syntax. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Assign a reference to the renderer property of the UI control. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which of the following aspects are true for a SAPUI5 UI element?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "A UI element has an API. ",
+                  "correct": true
+              },
+              {
+                  "answer": "A UI element does not have a renderer. ",
+                  "correct": true
+              },
+              {
+                  "answer": "A UI element has a renderer.",
+                  "correct": false
+              },
+              {
+                  "answer": "A UI element can have events. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What is the base class for all UI controls in SAPUI5?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "sap.ui.Control",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.ui.core.Control ",
+                  "correct": true
+              },
+              {
+                  "answer": "sap.ui.base.Control",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.ui.Element",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "How can a renderer access the associated elements?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "The developer must implement an appropriate function to access the elements.",
+                  "correct": false
+              },
+              {
+                  "answer": "SAPUI5 provides functions to access all properties, associations, and aggregations.  ",
+                  "correct": true
+              },
+              {
+                  "answer": "The developer must define a property method in the control metadata and declare the access control.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which file contains the initialization code for the UI library?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "library.load.js",
+                  "correct": false
+              },
+              {
+                  "answer": "library.js ",
+                  "correct": true
+              },
+              {
+                  "answer": "loadlibrary.js",
+                  "correct": false
+              },
+              {
+                  "answer": "lib.dll",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What method is called inside the library.js file?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "sap.ui.getCore().registerLibrary",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.ui.getCore().initLibrary",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.ui.getCore().loadLibrary ",
+                  "correct": true
+              },
+              {
+                  "answer": "sap.ui.getCore().runLibrary",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of the following statements are true with respect to QUnit?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Supports only synchronous testing out of the box.",
+                  "correct": false
+              },
+              {
+                  "answer": "QUnit is a JavaScript unit and integration test framework. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Supports asynchronous tests out-of-the-box. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Is capable of testing any generic JavaScript code. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Does QUnit support SAPUI5 view tests?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Yes, you can implement a test class to test UI aspects of SAPUI5.",
+                  "correct": false
+              },
+              {
+                  "answer": "No, for UI tests you must use OPA5. ",
+                  "correct": true
+              },
+              {
+                  "answer": "You can use the QUnit-extensions, called Selenium, to test SAPUI5 controls.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of the following statements are true with regard to OPA5?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Can be used for user interaction tests. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Can be used for SAPUI5 integration tests. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Is a view controller test framework.",
+                  "correct": false
+              },
+              {
+                  "answer": "Provides the possibility to test navigation. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "When do you need to work with local data?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "When working with static data. ",
+                  "correct": true
+              },
+              {
+                  "answer": "When performance is poor in the productive system.",
+                  "correct": false
+              },
+              {
+                  "answer": "To perform a quick test without creating live entities on the back-end server. ",
+                  "correct": true
+              },
+              {
+                  "answer": "When you want to reduce the complexity of your application.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What query option is needed to access the data of an entity in the JSON format?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "$json",
+                  "correct": false
+              },
+              {
+                  "answer": "$format=json ",
+                  "correct": true
+              },
+              {
+                  "answer": "format=json",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Where is the best place to store local data when using the SAP Web IDE?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "In the models folder.",
+                  "correct": false
+              },
+              {
+                  "answer": "In the localService folder. ",
+                  "correct": true
+              },
+              {
+                  "answer": "In the mockdata folder. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What class in the SAPUI5 API supports back-end mock up and is recommended by SAP?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "sap.ui.app.MockServer",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.ui.core.util.MockServer ",
+                  "correct": true
+              },
+              {
+                  "answer": "sap.m.MockServer",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.ui.core.MockServer",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What parameter is needed when instantiating a MockServer object?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "uri",
+                  "correct": false
+              },
+              {
+                  "answer": "rootUri ",
+                  "correct": true
+              },
+              {
+                  "answer": "url",
+                  "correct": false
+              },
+              {
+                  "answer": "rootUrl",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What parameter must you provide when calling the simulate function of the mock\r\nserver?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "The full qualified path to the model and the URI for the service document.",
+                  "correct": false
+              },
+              {
+                  "answer": "The full qualified path to the local metadata file and the folder where the model data are stored locally. ",
+                  "correct": true
+              },
+              {
+                  "answer": "The autoRespondAfter parameter and the full qualified path to the local metadata file.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What type of concurrency control is offered by OData?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Pessimistic concurrency control",
+                  "correct": false
+              },
+              {
+                  "answer": "Exclusive concurrency control",
+                  "correct": false
+              },
+              {
+                  "answer": "No concurrency control",
+                  "correct": false
+              },
+              {
+                  "answer": "Optimistic concurrency control ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "How does the OData Model handle XSRF tokens?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "The OData Model does not handle XSRF-tokens. The developer must implement token handling.",
+                  "correct": false
+              },
+              {
+                  "answer": "The OData Model fetches the token when reading the metadata and sends the token automatically in each write request header. ",
+                  "correct": true
+              },
+              {
+                  "answer": "The OData Model fetches the token for each request and sends the token automatically with each request.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What is returned by the function createEntry?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "The ID of the newly created entity.",
+                  "correct": false
+              },
+              {
+                  "answer": "A binding context object. ",
+                  "correct": true
+              },
+              {
+                  "answer": "A newly created object in JSON-format.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "When do you use deep insert?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "When working with aggregation binding to update / insert an entity in the bound",
+                  "correct": false
+              },
+              {
+                  "answer": "complex structure.",
+                  "correct": false
+              },
+              {
+                  "answer": "When adding a new entity to an entity set.",
+                  "correct": false
+              },
+              {
+                  "answer": "When working with hierarchical data where the data can only be stored in the full",
+                  "correct": false
+              },
+              {
+                  "answer": "hierarchy.  ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What method must be implemented on the back end to support deep inserts?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "INSERT_ENTITY_DEEP",
+                  "correct": false
+              },
+              {
+                  "answer": "CREATE_ENTITY_DEEP",
+                  "correct": false
+              },
+              {
+                  "answer": "CREATE_DEEP_ENTITY ",
+                  "correct": true
+              },
+              {
+                  "answer": "APPLY_DEEP_ENTITY",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which function do you call on the ODataModel to trigger a deep insert?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "create ",
+                  "correct": true
+              },
+              {
+                  "answer": "createDeep",
+                  "correct": false
+              },
+              {
+                  "answer": "insertDeep",
+                  "correct": false
+              },
+              {
+                  "answer": "updateDeep",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What is the namespace in which the smart controls are bundled?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "sap.ui.smart",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.ui.comp ",
+                  "correct": true
+              },
+              {
+                  "answer": "sap.m",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which aggregation is used to overwrite the standard behavior of a SmartField control.\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "overwrite",
+                  "correct": false
+              },
+              {
+                  "answer": "configure ",
+                  "correct": true
+              },
+              {
+                  "answer": "extension",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of the following statements are true for SAP Fiori elements?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Heavy UI coding is necessary when working with SAP Fiori Elements.",
+                  "correct": false
+              },
+              {
+                  "answer": "SAP Fiori elements provide designs for UI patterns and predefined templates. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Apps are based on OData services and annotations. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which of the following describe benefits of SAP Fiori elements?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Consistent UI design. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Full control of the of the generated code at design time.",
+                  "correct": false
+              },
+              {
+                  "answer": "Less support effort. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Flexibility and freedom in UI design.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of the following SAP Fiori element based UIs are currently available?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Wizard Form",
+                  "correct": false
+              },
+              {
+                  "answer": "List Report ",
+                  "correct": true
+              },
+              {
+                  "answer": "Master-Detail",
+                  "correct": false
+              },
+              {
+                  "answer": "Overview Pages ",
+                  "correct": true
+              },
+              {
+                  "answer": "Object Page ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which UI annotation is used in the object page to display the object header?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "UI.headerObject",
+                  "correct": false
+              },
+              {
+                  "answer": "UI.objectheader",
+                  "correct": false
+              },
+              {
+                  "answer": "UI.headerInfo ",
+                  "correct": true
+              },
+              {
+                  "answer": "UI.header",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which UI annotation is used to declare a field for the smart filter template?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "UI.searchField",
+                  "correct": false
+              },
+              {
+                  "answer": "UI.selectionField ",
+                  "correct": true
+              },
+              {
+                  "answer": "UI.filterField",
+                  "correct": false
+              },
+              {
+                  "answer": "UI.finderField",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What is meant by the phrase ?SAPUI5 supports modification free enhancements??\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "The developer must create a copy of the application that should be enhanced and the enhancement is done in the copy.",
+                  "correct": false
+              },
+              {
+                  "answer": "The delivered standard application remains unchanged and hence the extension is considered to be modification free. ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP provides a service in the cloud to generate an enhanced application using aspect-oriented programming.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Is it possible to add an extension point in the component implementation?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Yes",
+                  "correct": false
+              },
+              {
+                  "answer": "No ",
+                  "correct": true
+              },
+              {
+                  "answer": "It depends on the type of component.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "To what namespace is the ExtensionPoint class assigned?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "sap.ui.extension",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.m",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.ui.core ",
+                  "correct": true
+              },
+              {
+                  "answer": "sap.ui.core.extension",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What types of extensions/replacements are supported by SAPUI5?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Component replacement",
+                  "correct": false
+              },
+              {
+                  "answer": "View replacement ",
+                  "correct": true
+              },
+              {
+                  "answer": "View modification ",
+                  "correct": true
+              },
+              {
+                  "answer": "Replace service ",
+                  "correct": true
+              },
+              {
+                  "answer": "Implement UI Controller Hooks ",
+                  "correct": true
+              },
+              {
+                  "answer": "Manifest.json replacement",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "When you implement a controller extension and you implement the onInit and\r\nonAfterRendering functions in the extension, when are they called?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "After the corresponding functions form the standard controller.",
+                  "correct": false
+              },
+              {
+                  "answer": "Only the functions of the controller extensions are called.",
+                  "correct": false
+              },
+              {
+                  "answer": "Before the corresponding functions from the standard controller. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "How is the extension type called to hide UI controls?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Control replacement",
+                  "correct": false
+              },
+              {
+                  "answer": "Control modification",
+                  "correct": false
+              },
+              {
+                  "answer": "View modification ",
+                  "correct": true
+              },
+              {
+                  "answer": "Element modification",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of the following best describes a commit?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "With every commit, GIT create a new branch.",
+                  "correct": false
+              },
+              {
+                  "answer": "With every commit, GIT takes a snapshot of the current state of the underlying files. ",
+                  "correct": true
+              },
+              {
+                  "answer": "With every commit, a new local repository is created.",
+                  "correct": false
+              },
+              {
+                  "answer": "A commit in GIT is a local operation.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of the following are the main states of a file in GIT?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Committed ",
+                  "correct": true
+              },
+              {
+                  "answer": "Changed ",
+                  "correct": true
+              },
+              {
+                  "answer": "Released",
+                  "correct": false
+              },
+              {
+                  "answer": "Modified ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "In which state are the files in GIT when a remote repository is cloned?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Staged and modified ",
+                  "correct": true
+              },
+              {
+                  "answer": "Tracked and unmodified ",
+                  "correct": true
+              },
+              {
+                  "answer": "Tracked and staged",
+                  "correct": false
+              },
+              {
+                  "answer": "Modified and tracked ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What is the result of a GIT Reset?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Undo a committed snapshot.",
+                  "correct": false
+              },
+              {
+                  "answer": "Removes all untracked files from the working directory.",
+                  "correct": false
+              },
+              {
+                  "answer": "Returns a project back to the previous state. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What is the result of a GIT Revert?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Undoes a committed snapshot. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Removes all untracked files from the working directory.",
+                  "correct": false
+              },
+              {
+                  "answer": "Reverts back to the previous state of the project.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What is the result of a GIT Clean?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Undoes a committed snapshot.",
+                  "correct": false
+              },
+              {
+                  "answer": "Removes all untracked files from the working directory. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Reverts back to the previous state of the project.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What is a GIT branch?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "A GIT branch represents a local working copy of the main development line.",
+                  "correct": false
+              },
+              {
+                  "answer": "A GIT branch always represents the main development line.",
+                  "correct": false
+              },
+              {
+                  "answer": "A GIT branch represents an independent line of development. ",
+                  "correct": true
+              },
+              {
+                  "answer": "A GIT branch is the SAP implementation of GIT.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of the following statements are true about the merge functionality in GIT?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "A merge deletes the content of a branch.",
+                  "correct": false
+              },
+              {
+                  "answer": "Allows the merging of two local branches into one local branch.",
+                  "correct": false
+              },
+              {
+                  "answer": "Allows integration of a branch into another branch. ",
+                  "correct": true
+              }
+          ]
+      }
+  ]
+}

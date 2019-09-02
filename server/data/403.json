@@ -1,0 +1,931 @@
+{
+   "questions":[
+      {
+          "question": "What impact does UX have on monetary values?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Increase user satisfaction",
+                  "correct": false
+              },
+              {
+                  "answer": "Gain productivity and data quality ",
+                  "correct": true
+              },
+              {
+                  "answer": "Strengthen relationship between customers",
+                  "correct": false
+              },
+              {
+                  "answer": "Save training costs ",
+                  "correct": true
+              },
+              {
+                  "answer": "Decrease change requests and user errors ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What are the answers of SAP in UX strategy?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Design Strategy ",
+                  "correct": true
+              },
+              {
+                  "answer": "New / Renew / Enablement",
+                  "correct": false
+              },
+              {
+                  "answer": "New / Renew /Empower ",
+                  "correct": true
+              },
+              {
+                  "answer": "Architecture and Technology ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Screen Personas",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What impact does SAP Fiori have on Business?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Digitalization ",
+                  "correct": true
+              },
+              {
+                  "answer": "Simplification ",
+                  "correct": true
+              },
+              {
+                  "answer": "Web & open standards",
+                  "correct": false
+              },
+              {
+                  "answer": "User-centered",
+                  "correct": false
+              },
+              {
+                  "answer": "Re-imagine processes ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What are the current SAP UI Tools?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "SAPUI5 Application Development Tools ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Screen Personas ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP NetWeaver Portal",
+                  "correct": false
+              },
+              {
+                  "answer": "Flexible UI Designer ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP NetWeaver Gateway",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What are the current UI Technologies of SAP?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Business Server Pages",
+                  "correct": false
+              },
+              {
+                  "answer": "SAPUI5 ",
+                  "correct": true
+              },
+              {
+                  "answer": "Java Server Pages",
+                  "correct": false
+              },
+              {
+                  "answer": "Web Dynpro ABAP / Floorplan Manager",
+                  "correct": false
+              },
+              {
+                  "answer": "Dynpro ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What goals does the SAPUI5 framework have?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "User Interface technology for building and adapting client applications. ",
+                  "correct": true
+              },
+              {
+                  "answer": "User Interface technology for building and adapting server based applications.",
+                  "correct": false
+              },
+              {
+                  "answer": "Providing a lightweight programming model for desktop only applications.",
+                  "correct": false
+              },
+              {
+                  "answer": "Providing an extensible framework for building desktop and mobile applications. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What are the SAP Fiori principles?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Rolebased ",
+                  "correct": true
+              },
+              {
+                  "answer": "Adaptive ",
+                  "correct": true
+              },
+              {
+                  "answer": "Creative",
+                  "correct": false
+              },
+              {
+                  "answer": "Coherent ",
+                  "correct": true
+              },
+              {
+                  "answer": "Complex",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What steps are part of the discover phase in the DLD?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Scope ",
+                  "correct": true
+              },
+              {
+                  "answer": "Test",
+                  "correct": false
+              },
+              {
+                  "answer": "Implement",
+                  "correct": false
+              },
+              {
+                  "answer": "Research ",
+                  "correct": true
+              },
+              {
+                  "answer": "Synthesize ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What steps are part of the design phase in the DLD?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Test",
+                  "correct": false
+              },
+              {
+                  "answer": "Validate ",
+                  "correct": true
+              },
+              {
+                  "answer": "Prototype ",
+                  "correct": true
+              },
+              {
+                  "answer": "Scope",
+                  "correct": false
+              },
+              {
+                  "answer": "Ideate \r",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What impact does UX have on monetary values?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Increase user satisfaction",
+                  "correct": false
+              },
+              {
+                  "answer": "Gain productivity and data quality  ",
+                  "correct": true
+              },
+              {
+                  "answer": "Strengthen relationship between customers",
+                  "correct": false
+              },
+              {
+                  "answer": "Save training costs ",
+                  "correct": true
+              },
+              {
+                  "answer": "Decrease change requests and user errors ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What are the answers of SAP in UX strategy?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Design Strategy ",
+                  "correct": true
+              },
+              {
+                  "answer": "New / Renew / Enablement",
+                  "correct": false
+              },
+              {
+                  "answer": "New / Renew /Empower ",
+                  "correct": true
+              },
+              {
+                  "answer": "Architecture and Technology ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Screen Personas",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What impact does SAP Fiori have on Business?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Digitalization ",
+                  "correct": true
+              },
+              {
+                  "answer": "Simplification ",
+                  "correct": true
+              },
+              {
+                  "answer": "Web & open standards",
+                  "correct": false
+              },
+              {
+                  "answer": "User-centered",
+                  "correct": false
+              },
+              {
+                  "answer": "Re-imagine processes ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What are the current SAP UI Tools?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "SAPUI5 Application Development Tools ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Screen Personas ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP NetWeaver Portal",
+                  "correct": false
+              },
+              {
+                  "answer": "Flexible UI Designer ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP NetWeaver Gateway",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What are the current UI Technologies of SAP?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Business Server Pages",
+                  "correct": false
+              },
+              {
+                  "answer": "SAPUI5 ",
+                  "correct": true
+              },
+              {
+                  "answer": "Java Server Pages",
+                  "correct": false
+              },
+              {
+                  "answer": "Web Dynpro ABAP / Floorplan Manager ",
+                  "correct": true
+              },
+              {
+                  "answer": "Dynpro ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What goals does the SAPUI5 framework have?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "User Interface technology for building and adapting client applications. ",
+                  "correct": true
+              },
+              {
+                  "answer": "User Interface technology for building and adapting server based applications.",
+                  "correct": false
+              },
+              {
+                  "answer": "Providing a lightweight programming model for desktop only applications.",
+                  "correct": false
+              },
+              {
+                  "answer": "Providing an extensible framework for building desktop and mobile applications. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What are the SAP Fiori principles?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Rolebased ",
+                  "correct": true
+              },
+              {
+                  "answer": "Adaptive ",
+                  "correct": true
+              },
+              {
+                  "answer": "Creative",
+                  "correct": false
+              },
+              {
+                  "answer": "Coherent ",
+                  "correct": true
+              },
+              {
+                  "answer": "Complex",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What steps are part of the discover phase in the DLD?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Scope ",
+                  "correct": true
+              },
+              {
+                  "answer": "Test",
+                  "correct": false
+              },
+              {
+                  "answer": "Implement",
+                  "correct": false
+              },
+              {
+                  "answer": "Research ",
+                  "correct": true
+              },
+              {
+                  "answer": "Synthesize ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What steps are part of the design phase in the DLD?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Test",
+                  "correct": false
+              },
+              {
+                  "answer": "Validate ",
+                  "correct": true
+              },
+              {
+                  "answer": "Prototype ",
+                  "correct": true
+              },
+              {
+                  "answer": "Scope",
+                  "correct": false
+              },
+              {
+                  "answer": "Ideate ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What are the features of Fiori Elements?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "No JavaScript UI Coding. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Metadata-driven approach of Fiori development. ",
+                  "correct": true
+              },
+              {
+                  "answer": "A replacement for traditional free style SAPUI5 programming, can satisfy all",
+                  "correct": false
+              },
+              {
+                  "answer": "customer needs in a brand new approach.",
+                  "correct": false
+              },
+              {
+                  "answer": "Centrally Provided Templates covering Reporting, Analytic, Transaction scenarios. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which of the following information about an oData service should be provided as an\r\nannotation?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "The entities of an oData service.",
+                  "correct": false
+              },
+              {
+                  "answer": "Properties of an Entity Set/Collection.",
+                  "correct": false
+              },
+              {
+                  "answer": "The position for each field in a list report. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Data type for each property in an Entity Set/ Connection.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "The combination of Term/Target is unique, that means for an Entity or a field, every term\r\ncan be used only once.\r\nDetermine whether this statement is true or false.\r\n",
+          "answers": [
+              {
+                  "answer": "True",
+                  "correct": false
+              },
+              {
+                  "answer": "False ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which of following templates display only one business entity?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "List Report",
+                  "correct": false
+              },
+              {
+                  "answer": "Object Page ",
+                  "correct": true
+              },
+              {
+                  "answer": "Overview Page",
+                  "correct": false
+              },
+              {
+                  "answer": "Analytic List Page",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Using S/4 HANA 1610 with ABAP 7.51, which of following templates can you use for Fiori\r\nElement?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "List Report ",
+                  "correct": true
+              },
+              {
+                  "answer": "Object Page ",
+                  "correct": true
+              },
+              {
+                  "answer": "Overview Page ",
+                  "correct": true
+              },
+              {
+                  "answer": "Analytic List Page",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which info will be used for creating a destination in SAP Cloud Platform for Fiori Elements\r\ndevelopment? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Virtual name in SAP Cloud Connector. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Internal name in SAP Could Connector.",
+                  "correct": false
+              },
+              {
+                  "answer": "External name in SAP Cloud Connector.",
+                  "correct": false
+              },
+              {
+                  "answer": "Internal address of SAP Backend Server.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "When creating a CDS view, the SQL view name and view name for CDS must be identical.\r\nDetermine whether this statement is true or false.\r\n",
+          "answers": [
+              {
+                  "answer": "True",
+                  "correct": false
+              },
+              {
+                  "answer": "False ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which of following steps are needed to create an association in CDS and expose it?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Declare an association using ?association to? statement. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Declare an association using ?left outer join? statement.",
+                  "correct": false
+              },
+              {
+                  "answer": "Expose the association by writing its name in projection list. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Expose fields in the association by writing each field in projection list.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What are the limitations of publishing CDS as oData service by adding a\r\n@OData.publish:true ? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Can not expose associations.",
+                  "correct": false
+              },
+              {
+                  "answer": "Can not change names of entity sets. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Only 1 level is taken into consideration when exposing associations. ",
+                  "correct": true
+              },
+              {
+                  "answer": "No customized ABAP code in SAP Gateway. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "In which cases, is a local annotation better than a CDS annotation?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "UI with data intensive.",
+                  "correct": false
+              },
+              {
+                  "answer": "Annotations is for 1 field.",
+                  "correct": false
+              },
+              {
+                  "answer": "Complex UI relevant annotations. ",
+                  "correct": true
+              },
+              {
+                  "answer": "You want to use annotations which are not support by your current ABAP version. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "For a list report, which annotation is used to describe the name of business entity\r\ndisplayed on the report?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "@UI.lineItem.title",
+                  "correct": false
+              },
+              {
+                  "answer": "@UI.headerInfo.type",
+                  "correct": false
+              },
+              {
+                  "answer": "@UI.headerInfo.typeName",
+                  "correct": false
+              },
+              {
+                  "answer": "@UI.headerInfo.typeNamePlural ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "How can you hide some columns when the list report is accessed by a mobile phone?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Put all fields, which are not important at the end of the report, when screen gets smaller, the fields will hide automatically.",
+                  "correct": false
+              },
+              {
+                  "answer": "Add @UI.hidden for fields. not import.",
+                  "correct": false
+              },
+              {
+                  "answer": "Prepare a different version of @UI.lineItem and assign them as adifferent qualifier.",
+                  "correct": false
+              },
+              {
+                  "answer": "Set UI.lineItem.importance for those fields as #LOW or @Medium. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What is the use of the annotation @UI.hidden?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Prevent a column from display on the UI.",
+                  "correct": false
+              },
+              {
+                  "answer": "Not expose these fields as a property of OData service.",
+                  "correct": false
+              },
+              {
+                  "answer": "Prevent a column selected by user when customizing table settings. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Create a invisible column to save the value in a hidden control of HTML.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of following description about search field is NOT true?\r\nChoose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "The Search field is searching on more than one data field.",
+                  "correct": false
+              },
+              {
+                  "answer": "There is only 1 search field per list report.",
+                  "correct": false
+              },
+              {
+                  "answer": "Search field searches for only 1 data field. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Search field support fuzzy search.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Choose available options for creating a value help for a selection field.\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "By adding a foreign key annotation. ",
+                  "correct": true
+              },
+              {
+                  "answer": "By adding a value help annotation. ",
+                  "correct": true
+              },
+              {
+                  "answer": "If the domain which associates to the field, has a fixed value, the value help will be generated automatically.",
+                  "correct": false
+              },
+              {
+                  "answer": "By adding annotations to list all possible in source code of CDS.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "When running a list report, users can only filter data using fields provided as selection\r\nfields by developer.\r\nDetermine whether this statement is true or false.\r\n",
+          "answers": [
+              {
+                  "answer": "True",
+                  "correct": false
+              },
+              {
+                  "answer": "False ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What steps needs to be done in manifest.json if you need to hide variant function in a list\r\nreport?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Add setting to enable smart Variant Management. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Add setting to disable smart Variant Management.",
+                  "correct": false
+              },
+              {
+                  "answer": "Set setting variantManagementHidden to true. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Set setting showVariantManagement to false",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What are options for external navigation?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Navigation to URL (As a link). ",
+                  "correct": true
+              },
+              {
+                  "answer": "Navigation to URL (As a button).",
+                  "correct": false
+              },
+              {
+                  "answer": "Navigation to Intent (As a link). ",
+                  "correct": true
+              },
+              {
+                  "answer": "Navigation to Intent (As a button). ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What can be done by editing manifest.json ?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Disable object page. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Add object pages as sub page under an object page. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Define facets on Object Page.",
+                  "correct": false
+              },
+              {
+                  "answer": "Disable List Report.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "The field indicate criticality should be hidden because it means nothing to end user.\r\nDetermine whether this statement is true or false.\r\n",
+          "answers": [
+              {
+                  "answer": "True ",
+                  "correct": true
+              },
+              {
+                  "answer": "False",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which steps are used for display a field as rating indicator?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Set type of line item to #AS_DATAPOINT . ",
+                  "correct": true
+              },
+              {
+                  "answer": "Add a @UI.datapoint to the field and set visualization to #RATING. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Add a @UI.chart annotation to the field and set visualization to #RATING .",
+                  "correct": false
+              },
+              {
+                  "answer": "Set the visualization of line item to #RATING .",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What are differences between analytical entity set and normal entity set from oData\r\nconsumer perspective?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "The Analytical entity set, generates a new field for primary key. ",
+                  "correct": true
+              },
+              {
+                  "answer": "The Analytical entity set, returns all data, needed to analyze the client. ",
+                  "correct": true
+              },
+              {
+                  "answer": "The Analytical entity set, returns summarized results according to the $select parameter.",
+                  "correct": false
+              },
+              {
+                  "answer": "Analyzes the use of the database and runs faster when SAP HANA is used as database compared to a normal entity set. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Fiori Elements supports write operations, if the backend service is written by CDS working\r\nwith BOPF.\r\nDetermine whether this statement is true or false.\r\n",
+          "answers": [
+              {
+                  "answer": "True ",
+                  "correct": true
+              },
+              {
+                  "answer": "False\r",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of the following types are types of cards in an Overview Page?\r\nChoose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "List Cards ",
+                  "correct": true
+              },
+              {
+                  "answer": "Link List Cards ",
+                  "correct": true
+              },
+              {
+                  "answer": "Analytic Cards ",
+                  "correct": true
+              },
+              {
+                  "answer": "Table Cards ",
+                  "correct": true
+              },
+              {
+                  "answer": "Stack Cards ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "In an overview page, all entity set for cards should have association with the entity set for\r\nglobal filter, otherwise the filter will not work on the card.\r\nDetermine whether this statement is true or false.\r\n",
+          "answers": [
+              {
+                  "answer": "True",
+                  "correct": false
+              },
+              {
+                  "answer": "False ",
+                  "correct": true
+              }
+          ]
+      }
+  ]
+}
