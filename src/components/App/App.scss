@@ -1,4 +1,38 @@
 .app-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+
+  .control-container {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding: 0 3%;
+    position: relative;
+
+    .button-container{
+      display: flex;
+      flex-direction: column;
+      position: sticky;
+      top: 30%;
+
+      .active{
+        background-color: lightgrey;
+      }
+
+      .check-button {
+        margin-top: 15%;
+      }
+
+      button {
+        margin: 3% 0;
+        top: 50%;
+        width: 100%;
+      }
+    }
+
+  }
+  .content-container {
+    display: flex;
+    flex: 10;
+  }
 }

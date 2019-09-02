@@ -1,9 +1,9 @@
 import { FETCH_QUESTIONS, CHECK_ANSWERS, RESET_ANSWERS } from './actionTypes';
 import axios from 'axios';
 
-export const fetchQuestions = (callback) => dispatch => {
+export const fetchQuestions = (path, callback) => dispatch => {
   return axios
-    .get("http://localhost:8001/api/questions")
+    .get(`http://localhost:8001/api/${path}`)
     .then(res => {
 
       let { questions}  = res.data;

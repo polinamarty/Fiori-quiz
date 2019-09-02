@@ -8,8 +8,14 @@ app.use(cors());
 
 const port = 8001;
 
-app.get('/api/questions', (req, res) => {
-  res.sendFile(path.join(__dirname, 'data', 'questions.json'));
+app.get('/api/course', (req, res) => {
+  res.sendFile(path.join(__dirname, 'data', 'course.json'));
+});
+app.get('/api/402', (req, res) => {
+  res.sendFile(path.join(__dirname, 'data', '402.json'));
+});
+app.get('/api/403', (req, res) => {
+  res.sendFile(path.join(__dirname, 'data', '403.json'));
 });
 
 app.listen(port, () => {

@@ -22,7 +22,8 @@ class App extends Component {
   };
 
   componentDidMount() {
-    this.props.fetchQuestions().then(()=>{
+    this.setControlButtonEventListener();
+    this.props.fetchQuestions("course").then(()=>{
        this.setState({ questions: this.shuffle(this.props.questions) });
     })
   };
@@ -37,14 +38,40 @@ class App extends Component {
       return array.sort(() => Math.random() - 0.5);
   };
 
+  fetchQuizQuestions = event => {
+    this.props.fetchQuestions(event.currentTarget.id).then(()=>{
+       this.setState({ questions: this.shuffle(this.props.questions) });
+    })
+  };
+
+  setControlButtonEventListener = () => {
+    let buttons = Array.from(document.getElementsByClassName("target-button"));
+    buttons.forEach(function(button) {
+      button.addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        if (current.length > 0) {
+          current[0].className = current[0].className.replace(" active", "");
+        }
+        this.className += " active";
+      });
+    });
+  };
+
   render() {
     return (
       <div className="app-container">
-        <button onClick={this.toggleCheckAnswers}>
-          Check
-        </button>
-        <div>
-          {this.state.questions.map((question, index) => <Question question={question} questionNumber={index}/>)}
+        <div className="control-container">
+         <div className="button-container">
+            <button className="target-button" id="course" onClick={this.fetchQuizQuestions}>Evolved Web Apps with SAPUI5</button>
+            <button className="target-button" id="402" onClick={this.fetchQuizQuestions}>402</button>
+            <button className="target-button" id="403" onClick={this.fetchQuizQuestions}>403</button>
+            <button className="check-button" onClick={this.toggleCheckAnswers}>Check</button>
+          </div>
+        </div>
+        <div className="content-container">
+          <div>
+            {this.state.questions.map((question, index) => <Question question={question} questionNumber={index}/>)}
+          </div>
         </div>
       </div>
     );
