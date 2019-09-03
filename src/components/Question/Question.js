@@ -35,7 +35,10 @@ class Question extends Component {
           <div className="answer">
             {question.answers.map((answer, idx) => {
               return(
-              <div className={isAnswersChecked && answer.correct ? "correct" : ""}>
+              <div className={isAnswersChecked && answer.correct && this.state.checkedItems.get(idx.toString() + questionNumber)
+                  ? "correct"
+                  : isAnswersChecked && answer.correct
+                    ? "missed" :""}>
                 <input type="checkbox" id={idx.toString() + questionNumber} onClick={this.handleCheckChange} />
                 <label for={idx} className={isAnswersChecked && !answer.correct && this.state.checkedItems.get(idx.toString() + questionNumber) ? "wrong" : ""}>
                   {answer.answer}

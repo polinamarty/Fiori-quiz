@@ -22,8 +22,9 @@ export const fetchQuestions = (path, callback) => dispatch => {
     });
 }
 
-export function checkAnswers() {
-  return({ type: CHECK_ANSWERS });
+export const checkAnswers = ()=> dispatch=>{
+  dispatch({type:'CHECK_ANSWERS'});
+  return Promise.resolve();
 }
 
 export function resetAnswers() {

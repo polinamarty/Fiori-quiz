@@ -31,7 +31,11 @@ class App extends Component {
   toggleCheckAnswers = () => {
     if (this.props.isAnswersChecked) {
         this.props.resetAnswers();
-    } else this.props.checkAnswers();
+    } else {
+      this.props.checkAnswers().then(()=>{
+        this.setErrorCount();
+      });
+    }
   };
 
   shuffle = array => {
@@ -57,6 +61,13 @@ class App extends Component {
     });
   };
 
+  setErrorCount = () => {
+      let errorNodes = Array.from(document.getElementsByClassName("wrong"));
+      let missedNodes = Array.from(document.getElementsByClassName("missed"));
+      document.getElementById("errorCount").innerHTML = `Errors: ${errorNodes.length }, missed: ${missedNodes.length}`;
+
+  };
+
   render() {
     return (
       <div className="app-container">
@@ -66,6 +77,9 @@ class App extends Component {
             <button className="target-button" id="402" onClick={this.fetchQuizQuestions}>402</button>
             <button className="target-button" id="403" onClick={this.fetchQuizQuestions}>403</button>
             <button className="check-button" onClick={this.toggleCheckAnswers}>Check</button>
+            {this.props.isAnswersChecked
+              ? <div id="errorCount"/>
+              : null}
           </div>
         </div>
         <div className="content-container">
