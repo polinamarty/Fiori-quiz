@@ -30,7 +30,7 @@ class Question extends Component {
       <React.Fragment>
         <div className="question-container">
           <div className="question">
-            {question.question}
+            {parseInt(questionNumber) + 1}.{question.question}
           </div>
           <div className="answer">
             {question.answers.map((answer, idx) => {
