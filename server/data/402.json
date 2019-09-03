@@ -133,11 +133,7 @@
                   "correct": true
               },
               {
-                  "answer": "Provide a user interface technology for building and adapting server-based",
-                  "correct": false
-              },
-              {
-                  "answer": "applications.",
+                  "answer": "Provide a user interface technology for building and adapting server-based applications.",
                   "correct": false
               },
               {
@@ -472,11 +468,7 @@
                   "correct": false
               },
               {
-                  "answer": "It depends on the SAPUI5 version. From version 1.30 and later, the sap.m.App",
-                  "correct": false
-              },
-              {
-                  "answer": "control provides responsive behavior.",
+                  "answer": "It depends on the SAPUI5 version. From version 1.30 and later, the sap.m.App control provides responsive behavior.",
                   "correct": false
               },
               {
@@ -703,19 +695,11 @@
           "question": "What is the best approach to showing a UI control on a desktop only, and not on a mobile\r\ndevice?\r\nChoose the correct answer.\r\n",
           "answers": [
               {
-                  "answer": "Use the Device API to check the environment and call setVisible on the UI",
+                  "answer": "Use the Device API to check the environment and call setVisible on the UI control.",
                   "correct": false
               },
               {
-                  "answer": "control.",
-                  "correct": false
-              },
-              {
-                  "answer": "Use the UI control from sap.ui.commons. These UI controls can handle this",
-                  "correct": false
-              },
-              {
-                  "answer": "automatically.",
+                  "answer": "Use the UI control from sap.ui.commons. These UI controls can handle this automatically.",
                   "correct": false
               },
               {
@@ -732,7 +716,7 @@
                   "correct": false
               },
               {
-                  "answer": "efine the property width of the type sap.ui.core.Integer.",
+                  "answer": "Define the property width of the type sap.ui.core.Integer.",
                   "correct": false
               },
               {
@@ -1120,11 +1104,7 @@
           "question": "When do you use deep insert?\r\nChoose the correct answer.\r\n",
           "answers": [
               {
-                  "answer": "When working with aggregation binding to update / insert an entity in the bound",
-                  "correct": false
-              },
-              {
-                  "answer": "complex structure.",
+                  "answer": "When working with aggregation binding to update / insert an entity in the bound complex structure.",
                   "correct": false
               },
               {
@@ -1132,11 +1112,7 @@
                   "correct": false
               },
               {
-                  "answer": "When working with hierarchical data where the data can only be stored in the full",
-                  "correct": false
-              },
-              {
-                  "answer": "hierarchy.  ",
+                  "answer": "When working with hierarchical data where the data can only be stored in the full hierarchy.  ",
                   "correct": true
               }
           ]
