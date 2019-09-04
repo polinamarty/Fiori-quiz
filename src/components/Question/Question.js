@@ -21,6 +21,21 @@ class Question extends Component {
     this.setState(prevState => ({ checkedItems: prevState.checkedItems.set(item, isChecked)}));
   };
 
+  getAnswerClassName = (answer, answerId) => {
+    if (this.props.isAnswersChecked) {
+      let questionNumber = this.props.questionNumber.toString();
+      let isAnswerCorrect = answer.correct;
+      let isAnswerSelected = this.state.checkedItems.get(answerId.toString() + questionNumber);
+
+      return isAnswerCorrect && isAnswerSelected
+              ? "correct"
+              : isAnswerCorrect && !isAnswerSelected
+                ? "missed"
+                : !isAnswerCorrect && isAnswerSelected
+                  ? "wrong" : "";
+    } else return "";
+  };
+
   render() {
     let { question } = this.props;
     let { isAnswersChecked } = this.props;
@@ -35,12 +50,9 @@ class Question extends Component {
           <div className="answer">
             {question.answers.map((answer, idx) => {
               return(
-              <div className={isAnswersChecked && answer.correct && this.state.checkedItems.get(idx.toString() + questionNumber)
-                  ? "correct"
-                  : isAnswersChecked && answer.correct
-                    ? "missed" :""}>
+              <div className={this.getAnswerClassName(answer, idx)}>
                 <input type="checkbox" id={idx.toString() + questionNumber} onClick={this.handleCheckChange} />
-                <label for={idx} className={isAnswersChecked && !answer.correct && this.state.checkedItems.get(idx.toString() + questionNumber) ? "wrong" : ""}>
+                <label for={idx}>
                   {answer.answer}
                 </label>
               </div>);
