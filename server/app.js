@@ -17,7 +17,9 @@ app.get('/api/402', (req, res) => {
 app.get('/api/403', (req, res) => {
   res.sendFile(path.join(__dirname, 'data', '403.json'));
 });
-
+app.get('/api/410', (req, res) => {
+  res.sendFile(path.join(__dirname, 'data', '410.json'));
+});
 app.listen(port, () => {
   console.log(`[questions] API listening on port ${port}.`);
 });

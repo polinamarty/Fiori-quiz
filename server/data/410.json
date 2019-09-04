@@ -1,0 +1,1710 @@
+{
+   "questions":[
+      {
+          "question": "What is described as the person's perceptions and response that result from the use or anticipated use of a product, system, or service? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "User interface",
+                  "correct": false
+              },
+              {
+                  "answer": "User experience ",
+                  "correct": true
+              },
+              {
+                  "answer": "Usability",
+                  "correct": false
+              },
+              {
+                  "answer": "User acceptance",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What does effectiveness mean in the relation to the user interface? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "The resources expended in relation to the accuracy and completeness of goals achieved",
+                  "correct": false
+              },
+              {
+                  "answer": "The accuracy and completeness with which specified users can achieve specified goals in specific environments ",
+                  "correct": true
+              },
+              {
+                  "answer": "The comfort and acceptability of the work system to its users and other people affected by its use",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of the following can be used for usability assessment? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Heuristic evaluation ",
+                  "correct": true
+              },
+              {
+                  "answer": "User testing ",
+                  "correct": true
+              },
+              {
+                  "answer": "User observation",
+                  "correct": false
+              },
+              {
+                  "answer": "Questionnaires ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What impact does UX have on monetary values? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Increases user satisfaction",
+                  "correct": false
+              },
+              {
+                  "answer": "Improves productivity and data quality ",
+                  "correct": true
+              },
+              {
+                  "answer": "Strengthens relationships with customers",
+                  "correct": false
+              },
+              {
+                  "answer": "Saves training costs ",
+                  "correct": true
+              },
+              {
+                  "answer": "Decreases change requests and user errors ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What are the key aspects of SAP's UX strategy? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Design strategy ",
+                  "correct": true
+              },
+              {
+                  "answer": "New / Renew / Enablement",
+                  "correct": false
+              },
+              {
+                  "answer": "New / Renew / Empower ",
+                  "correct": true
+              },
+              {
+                  "answer": "Architecture and Technology ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Screen Personas ",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What impact does SAP Fiori have on business? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Digitalization ",
+                  "correct": true
+              },
+              {
+                  "answer": "Simplification ",
+                  "correct": true
+              },
+              {
+                  "answer": "Web and open standards",
+                  "correct": false
+              },
+              {
+                  "answer": "User centered",
+                  "correct": false
+              },
+              {
+                  "answer": "Re-imagines processes ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What are the key principles of SAP Fiori? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Role-based ",
+                  "correct": true
+              },
+              {
+                  "answer": "Adaptive ",
+                  "correct": true
+              },
+              {
+                  "answer": "Complex",
+                  "correct": false
+              },
+              {
+                  "answer": "Coherent ",
+                  "correct": true
+              },
+              {
+                  "answer": "Simple ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What application type is implemented to analyze a huge amount of data with diagrams? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Transactional",
+                  "correct": false
+              },
+              {
+                  "answer": "Analytical ",
+                  "correct": true
+              },
+              {
+                  "answer": "Fact sheet ",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What names have the view ports of the SAP Fiori launchpad? Choose the correct answers.\r\nX A Me area Correct!\r\nX B Desktop\r\nX C Workspace Correct!\r\nX D Notification area Correct!\r\n",
+          "answers": [
+              {
+                  "answer": "What is the preferred technology to implement SAP Fiori applications? Choose the correct answer.",
+                  "correct": false
+              },
+              {
+                  "answer": "Web Dynpro ABAP",
+                  "correct": false
+              },
+              {
+                  "answer": "SAPUI5 ",
+                  "correct": true
+              },
+              {
+                  "answer": "Web Dynpro Java",
+                  "correct": false
+              },
+              {
+                  "answer": "Dynpro",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What three key aspects are important when talking about innovation? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Feasibility ",
+                  "correct": true
+              },
+              {
+                  "answer": "Scalability",
+                  "correct": false
+              },
+              {
+                  "answer": "Viability ",
+                  "correct": true
+              },
+              {
+                  "answer": "Desirability ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What are the main spaces in the design thinking process? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Problem Space ",
+                  "correct": true
+              },
+              {
+                  "answer": "Ideation Space",
+                  "correct": false
+              },
+              {
+                  "answer": "Solution Space ",
+                  "correct": true
+              },
+              {
+                  "answer": "Test Space",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What are common design thinking brainstorming rules? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Be visual ",
+                  "correct": true
+              },
+              {
+                  "answer": "Discuss and judge every idea",
+                  "correct": false
+              },
+              {
+                  "answer": "Go for quality",
+                  "correct": false
+              },
+              {
+                  "answer": "Fail early and often ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What do you focus on when it comes to decomposition and re-composition? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "The building of mega transactions to support all needs of all people",
+                  "correct": false
+              },
+              {
+                  "answer": "The person�s tasks that should be supported by the application ",
+                  "correct": true
+              },
+              {
+                  "answer": "The expensive of the implementation",
+                  "correct": false
+              },
+              {
+                  "answer": "The data and functions that are already in the system",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What is the purpose of SAP Build? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Provides tooling to support the designer during various phases of design thinking. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Provides tooling to support the developer during the development of back-end services.",
+                  "correct": false
+              },
+              {
+                  "answer": "Provides tooling to support the developer during the development of SAPUI5 applications.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "The SAP Fiori Design Guidelines are available for various device types. For what device types are the design guidelines available? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "SAP Fiori for Windows",
+                  "correct": false
+              },
+              {
+                  "answer": "SAP Fiori for Android ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Fiori for Web ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Fiori for iOS ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Fiori for Blackberry",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What content density is used for touch-enabled devices? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Compact form factor",
+                  "correct": false
+              },
+              {
+                  "answer": "Mobile form factor",
+                  "correct": false
+              },
+              {
+                  "answer": "Cozy form factor ",
+                  "correct": true
+              },
+              {
+                  "answer": "Desktop form factor",
+                  "correct": false
+              },
+              {
+                  "answer": "Small form factor",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which different app types can be found in SAP Fiori? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Conceptual ",
+                  "correct": true
+              },
+              {
+                  "answer": "Industrial",
+                  "correct": false
+              },
+              {
+                  "answer": "Technical ",
+                  "correct": true
+              },
+              {
+                  "answer": "Infrastructural",
+                  "correct": false
+              },
+              {
+                  "answer": "Mobile",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which technical application types are defined for SAP HANA? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Transactional ",
+                  "correct": true
+              },
+              {
+                  "answer": "Secure",
+                  "correct": false
+              },
+              {
+                  "answer": "Fact Sheets ",
+                  "correct": true
+              },
+              {
+                  "answer": "Analytical ",
+                  "correct": true
+              },
+              {
+                  "answer": "Drill-down",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What are the main artefacts of an SAPUI5 application? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "CSS",
+                  "correct": false
+              },
+              {
+                  "answer": "Views ",
+                  "correct": true
+              },
+              {
+                  "answer": "Controllers ",
+                  "correct": true
+              },
+              {
+                  "answer": "Models ",
+                  "correct": true
+              },
+              {
+                  "answer": "controls",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What are the tasks of the controller in the Model-View-Controller implementation? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Updates using data binding",
+                  "correct": false
+              },
+              {
+                  "answer": "Modifies the model ",
+                  "correct": true
+              },
+              {
+                  "answer": "Modifies the view via API ",
+                  "correct": true
+              },
+              {
+                  "answer": "Holds the business data",
+                  "correct": false
+              },
+              {
+                  "answer": "Contains the UI implementation",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of the following statements are correct with respect to the SAP Web IDE? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "SAP web IDE is a development environment for SAP ABAP.",
+                  "correct": false
+              },
+              {
+                  "answer": "SAP web IDE is a browser-based development environment. ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP web IDE provides application templates as a foundation of highly efficient app development. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What is true of the SAP Cloud Platform Web IDE for full-stack development. Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "It requires zero Installation. ",
+                  "correct": true
+              },
+              {
+                  "answer": "It is released with SAP HANA SPS�s.",
+                  "correct": false
+              },
+              {
+                  "answer": "There are twice weekly updates. ",
+                  "correct": true
+              },
+              {
+                  "answer": "It is included with SAP HANA express edition.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of the following statements are talking about the SAP Fiori app architecture? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "SAP Fiori apps are implemented using the component-based approach. ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Fiori apps have a index.html file that is used for SAP Fiori launchpad integration.",
+                  "correct": false
+              },
+              {
+                  "answer": "SAP Fiori apps need to have an app descriptor that describes the applications metadata. ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Fiori apps should use the SAPUI5 core as a place to hold app data models.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "SAPUI5 provides two different router implementations. What router class is used in SAP Fiori apps as a router or as a router base class, when you want to implement your own router? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "sap.m.routing.Router ",
+                  "correct": true
+              },
+              {
+                  "answer": "sap.ui.core.routing.Router",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.m.Router",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.routing.Router",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What are the main configuration objects of the routing configuration? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "config ",
+                  "correct": true
+              },
+              {
+                  "answer": "routing",
+                  "correct": false
+              },
+              {
+                  "answer": "routes ",
+                  "correct": true
+              },
+              {
+                  "answer": "targets ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What is the main benefit to using predefined CSS margin/padding classes of SAPUI5? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Consistent spacing ",
+                  "correct": true
+              },
+              {
+                  "answer": "Consistent borders",
+                  "correct": false
+              },
+              {
+                  "answer": "Consistent width",
+                  "correct": false
+              },
+              {
+                  "answer": "Consistent height",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of the following artefacts are contained in the OData URL structure? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Service Root URI ",
+                  "correct": true
+              },
+              {
+                  "answer": "Header data",
+                  "correct": false
+              },
+              {
+                  "answer": "Resource Path ",
+                  "correct": true
+              },
+              {
+                  "answer": "Query Options ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What is the purpose of the neo-app.json file located in the project root folder of your SAP Web IDE project? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "It contains the OData service configuration parameters used at runtime.",
+                  "correct": false
+              },
+              {
+                  "answer": "It contains the mapping between an application URL and a destination configured in the SAP Cloud Platform. ",
+                  "correct": true
+              },
+              {
+                  "answer": "It contains the configuration for the mock server.",
+                  "correct": false
+              },
+              {
+                  "answer": "It contains the mapping configuration of the front-end and back-end server URLs.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What aggregations are defined by the sap.suite.ui.commons.ChartContainer? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "content ",
+                  "correct": true
+              },
+              {
+                  "answer": "container",
+                  "correct": false
+              },
+              {
+                  "answer": "dimensionSelector ",
+                  "correct": true
+              },
+              {
+                  "answer": "customicons ",
+                  "correct": true
+              },
+              {
+                  "answer": "legend",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What main aspects does the developer have to configure for a sap.viz.ui5.controls.VizFrame control? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Dataset ",
+                  "correct": true
+              },
+              {
+                  "answer": "Datacontainer",
+                  "correct": false
+              },
+              {
+                  "answer": "DimensionDefinition ",
+                  "correct": true
+              },
+              {
+                  "answer": "MeasureDefinition ",
+                  "correct": true
+              },
+              {
+                  "answer": "Feed ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": " What is the idea behind the golden rule of having one common UX? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Having a common UX reduces training costs and increases the quality of data. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Having a common UX reduces the overall total cost of ownership.",
+                  "correct": false
+              },
+              {
+                  "answer": "Having a common UX reduces development costs. You are correct! Having a common UX reduces training costs and increases the quality of data.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Why is it advisable to not use a custom CSS file in your SAP UI5 applications? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "SAPUI5 has problems with custom CSS.",
+                  "correct": false
+              },
+              {
+                  "answer": "Having one central design created with the theme designer is very efficient. When something needs to be changed at the client interface, it is easier to handle. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Time spent designing modified CSS is expensive.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of the following should you avoid with regard to the golden rule �Every SAP Fiori app must run as a web app�? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Absolute URLs generated in front or back-end. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Using SAPUI5",
+                  "correct": false
+              },
+              {
+                  "answer": "Hard dependencies between apps",
+                  "correct": false
+              },
+              {
+                  "answer": "Calling UI2 services directly instead of using APIs ",
+                  "correct": true
+              },
+              {
+                  "answer": "Use of platform-specific functionality without availability check ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which factors are key to the user experience with user assistance? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Instant ",
+                  "correct": true
+              },
+              {
+                  "answer": "Context-sensitive ",
+                  "correct": true
+              },
+              {
+                  "answer": "confusing",
+                  "correct": false
+              },
+              {
+                  "answer": "Seamless ",
+                  "correct": true
+              },
+              {
+                  "answer": "Error prone",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What areas are mandatory in the tile layout? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Subtitle",
+                  "correct": false
+              },
+              {
+                  "answer": "Header Area ",
+                  "correct": true
+              },
+              {
+                  "answer": "Content Area ",
+                  "correct": true
+              },
+              {
+                  "answer": "Status Area",
+                  "correct": false
+              },
+              {
+                  "answer": "KPI Area",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of the following components are part of the SAP Fiori launchpad? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Shell services ",
+                  "correct": true
+              },
+              {
+                  "answer": "UI2 services",
+                  "correct": false
+              },
+              {
+                  "answer": "Shell container ",
+                  "correct": true
+              },
+              {
+                  "answer": "Runtime container",
+                  "correct": false
+              },
+              {
+                  "answer": "Runtime configuration ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which types of services are known or supported by the SAP Fiori launchpad? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Platform-specific services ",
+                  "correct": true
+              },
+              {
+                  "answer": "UI5 services",
+                  "correct": false
+              },
+              {
+                  "answer": "Platform-independent services ",
+                  "correct": true
+              },
+              {
+                  "answer": "UI2 Services",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of the following make up the configuration of a tile for launching an SAP Fiori app of type SAPUI5 in the SAP Fiori launchpad designer? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Semantic object ",
+                  "correct": true
+              },
+              {
+                  "answer": "Launchpad creation via LPD_CUST",
+                  "correct": false
+              },
+              {
+                  "answer": "Target Mapping ",
+                  "correct": true
+              },
+              {
+                  "answer": "Tile configuration ",
+                  "correct": true
+              },
+              {
+                  "answer": "Tile implementation",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What transaction is used to create an semantic object for customer configuration? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "/UI5/LPD_CUST",
+                  "correct": false
+              },
+              {
+                  "answer": "/UI2/SEMOBJ ",
+                  "correct": true
+              },
+              {
+                  "answer": "/UI5/SEMOBJ",
+                  "correct": false
+              },
+              {
+                  "answer": "pfcg",
+                  "correct": false
+              },
+              {
+                  "answer": "su01",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What application in the SAP Fiori launchpad helps the user to find applications that are available to the user? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Tile Finder",
+                  "correct": false
+              },
+              {
+                  "answer": "Application Finder ",
+                  "correct": true
+              },
+              {
+                  "answer": "Fiori Designer",
+                  "correct": false
+              },
+              {
+                  "answer": "Fiori Appsearch",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of the following layouts, are described in version 1.48 of the Guidelines? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Dynamic Page ",
+                  "correct": true
+              },
+              {
+                  "answer": "Full-Screen",
+                  "correct": false
+              },
+              {
+                  "answer": "Split-Screen",
+                  "correct": false
+              },
+              {
+                  "answer": "Flexible Column Layout ",
+                  "correct": true
+              },
+              {
+                  "answer": "MobileDeviceLayout",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What aspects should be considered in deciding which layout template to use? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "When deciding which template to use for your app, you need to consider what the user wants to achieve when working in the app. ",
+                  "correct": true
+              },
+              {
+                  "answer": "When deciding which template to use for your app, you need to analyse what end device the app is executed on.",
+                  "correct": false
+              },
+              {
+                  "answer": "It is helpful to answer questions on the nature of the tasks. ",
+                  "correct": true
+              },
+              {
+                  "answer": "When deciding which template to use for your app, you need to consider what browser type is used.",
+                  "correct": false
+              },
+              {
+                  "answer": "You need to analyze the capabilities of the users.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which types of application can use the dynamic page layout? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "The layout is deprecated, which means that you should not use the layout anymore.",
+                  "correct": false
+              },
+              {
+                  "answer": "You can use the dynamic page layout for any kind of application. ",
+                  "correct": true
+              },
+              {
+                  "answer": "The layout is only used for master-detail scenarios.",
+                  "correct": false
+              },
+              {
+                  "answer": "The dynamic page layout is only used for analytical applications.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "When should you not use the dynamic page layout? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "You are planning to use SAP Fiori elements, such as the list report, analytical list page, overview page, or object page, which already incorporates the dynamic page layout. ",
+                  "correct": true
+              },
+              {
+                  "answer": "You are building a freestyle application that uses the dynamic page header and footer toolbar features of SAP Fiori 2.0 (versions 1.40 and higher).",
+                  "correct": false
+              },
+              {
+                  "answer": "You want to implement an initial page or object page floor plan. These floor plans already incorporate snapping header and footer toolbar features. The behavior is comparable to the dynamic page behavior, but the technical foundation is different. ",
+                  "correct": true
+              },
+              {
+                  "answer": "You are building an analytical application that is using the sap.viz API.",
+                  "correct": false
+              },
+              {
+                  "answer": "You only need to display a small amount of information. In this case, use a dialog instead. If you cannot avoid using the dynamic page layout, use letterboxing to mitigate the issue. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "When do you use the flexible-column layout? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "You want to open multiple instances of the same object type.",
+                  "correct": false
+              },
+              {
+                  "answer": "You want to create a master-detail or master-detail-detail scenario in which the user can drill down or navigate. ",
+                  "correct": true
+              },
+              {
+                  "answer": "You want to split a single object into multiple columns, or display only a small amount of information.",
+                  "correct": false
+              },
+              {
+                  "answer": "You want to embed the SAP Fiori launchpad, or overview page into one of the columns.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "How many columns are supported by the flexible-column layout? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "1",
+                  "correct": false
+              },
+              {
+                  "answer": "2",
+                  "correct": false
+              },
+              {
+                  "answer": "3 ",
+                  "correct": true
+              },
+              {
+                  "answer": "4",
+                  "correct": false
+              },
+              {
+                  "answer": "5",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Since when is the full-screen layout deprecated? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "1.42",
+                  "correct": false
+              },
+              {
+                  "answer": "1.44 ",
+                  "correct": true
+              },
+              {
+                  "answer": "1.56",
+                  "correct": false
+              },
+              {
+                  "answer": "1.58",
+                  "correct": false
+              },
+              {
+                  "answer": "1.60",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Since when is the Split-Screen-layout deprecated? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "1.42",
+                  "correct": false
+              },
+              {
+                  "answer": "1.44",
+                  "correct": false
+              },
+              {
+                  "answer": "1.46",
+                  "correct": false
+              },
+              {
+                  "answer": "1.48 ",
+                  "correct": true
+              },
+              {
+                  "answer": "1.50",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What is a SAP Fiori floorplan? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "A floorplan is a layout control of SAPUI5.",
+                  "correct": false
+              },
+              {
+                  "answer": "A floorplan is a UI pattern that provides consistent UX. ",
+                  "correct": true
+              },
+              {
+                  "answer": "A floorplan defines the overall layout of an application.",
+                  "correct": false
+              },
+              {
+                  "answer": "A floorplan is a layout of the SAP Web-Dynpro layouts for SAP Fiori apps.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "When do you have to implement the SAP Fiori floorplan initial page? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "The Initial page floorplan is used when the user needs to select an item from a list.",
+                  "correct": false
+              },
+              {
+                  "answer": "The Initial page floorplan is used when the user needs to navigate to a single object. ",
+                  "correct": true
+              },
+              {
+                  "answer": "The Initial page floorplan is used to show a single object.",
+                  "correct": false
+              },
+              {
+                  "answer": "The Initial page floorplan is used when the user needs to process a complex task.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What SAPUI5 control is used as a starting point to implement the initial page? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "sap.m.Select",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.m.Input ",
+                  "correct": true
+              },
+              {
+                  "answer": "sap.m.Table",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.m.List",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "You are not correct. The work list report floorplan is used when you want to display a collection of items and process them or delegate them to someone else. Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "You want to display all the information of a simple or complex object with different facets in a responsive way.",
+                  "correct": false
+              },
+              {
+                  "answer": "You want to display a collection of items and process them or delegate them to someone else.",
+                  "correct": false
+              },
+              {
+                  "answer": "The user needs to process a long and unfamiliar task.",
+                  "correct": false
+              },
+              {
+                  "answer": "You want to display a large collection of items and the user can take some action. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What problem is solved by the object page floorplan? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "You want to display all the information of a simple or complex object with different facets in a responsive way ",
+                  "correct": true
+              },
+              {
+                  "answer": "You want to display a collection of items and process them or delegate them to someone else.",
+                  "correct": false
+              },
+              {
+                  "answer": "The user must process a long and unfamiliar task.",
+                  "correct": false
+              },
+              {
+                  "answer": "You want to display a large collection of items and the user can take some action.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What problem is solved by the worklist Report floorplan? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "You want to display all the information of a simple or complex object with different facets in a responsive way.",
+                  "correct": false
+              },
+              {
+                  "answer": "You want to display a collection of items and process them or delegate them to someone else. ",
+                  "correct": true
+              },
+              {
+                  "answer": "The user must process a long and unfamiliar task.",
+                  "correct": false
+              },
+              {
+                  "answer": "You want to display a large collection of items and the user can take some action.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What problem is solved by the wizard floorplan? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "You want to display all the information of a simple or complex object, with different facets, in a responsive way.",
+                  "correct": false
+              },
+              {
+                  "answer": "You want to display a collection of items and process them or delegate them to someone else.",
+                  "correct": false
+              },
+              {
+                  "answer": "The user must process a long and unfamiliar task. ",
+                  "correct": true
+              },
+              {
+                  "answer": "You want to display a large collection of items, and the user can take some action.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What is the nature of the overview page floorplan? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "You want to display all the information of a simple or complex object with different facets, in a responsive way.",
+                  "correct": false
+              },
+              {
+                  "answer": "You want to display a collection of items, and process them or delegate them to someone else.",
+                  "correct": false
+              },
+              {
+                  "answer": "You want to show all information that is needed by the user on a single page, based on a user specific domain or role. ",
+                  "correct": true
+              },
+              {
+                  "answer": "You want to display a large collection of items, and the user can take some action.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "When do you not use the overview page floorplan? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "A high-level or birds-eye view of an application content is sufficient. ",
+                  "correct": true
+              },
+              {
+                  "answer": "You want to display a collection of items and process them or delegate them to someone else.",
+                  "correct": false
+              },
+              {
+                  "answer": "You want to show information about one object only. In this case, use the object page instead. ",
+                  "correct": true
+              },
+              {
+                  "answer": "You just represent one application and less than three cards. In this case, use the object page instead. ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What UI control can be used to define a hook to extend an application? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "sap.m.Extend",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.ui.core.Extend",
+                  "correct": false
+              },
+              {
+                  "answer": "sap.ui.core.ExtensionPoint ",
+                  "correct": true
+              },
+              {
+                  "answer": "sap.comp.ExtendControl",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What ways are there, of extending or modifying a SAPUI5 view? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "View extension ",
+                  "correct": true
+              },
+              {
+                  "answer": "View enhancement",
+                  "correct": false
+              },
+              {
+                  "answer": "View replacement ",
+                  "correct": true
+              },
+              {
+                  "answer": "View modification",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What concept is provided by SAP to make it possible to extend standard SAPUI5 function in the basic application? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Base methods",
+                  "correct": false
+              },
+              {
+                  "answer": "Hook methods ",
+                  "correct": true
+              },
+              {
+                  "answer": "View controllers",
+                  "correct": false
+              },
+              {
+                  "answer": "Extension controller",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What happens if the text is not available in the customized bundle of your extension? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "The key will display in the application in capital letters.",
+                  "correct": false
+              },
+              {
+                  "answer": "SAPUI5 tries to find the text in the resource bundle of the standard application. ",
+                  "correct": true
+              },
+              {
+                  "answer": "An exception is raised.",
+                  "correct": false
+              },
+              {
+                  "answer": "No text is displayed.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What is the goal of every developer? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Increase efficiency ",
+                  "correct": true
+              },
+              {
+                  "answer": "Develop faster ",
+                  "correct": true
+              },
+              {
+                  "answer": "Increase development effort",
+                  "correct": false
+              },
+              {
+                  "answer": "Less maintenance ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What possible values can be used for the annotation @UI.LineItem.importance? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "LOW ",
+                  "correct": true
+              },
+              {
+                  "answer": "VERY_HIGH",
+                  "correct": false
+              },
+              {
+                  "answer": "HIGH",
+                  "correct": false
+              },
+              {
+                  "answer": "MEDIUM ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What annotation is used to define the heading of list report? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "@UI.headerInfo.typeNamePlural ",
+                  "correct": true
+              },
+              {
+                  "answer": "@UI.LineItem.headerTitle",
+                  "correct": false
+              },
+              {
+                  "answer": "@UI.headerInfo.typeName",
+                  "correct": false
+              },
+              {
+                  "answer": "@UI.header.title",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What annotation is used to declare that a field of the projection list contains currency? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "@Semantics.currencyCode ",
+                  "correct": true
+              },
+              {
+                  "answer": "@UI.LineItem.currencyCode",
+                  "correct": false
+              },
+              {
+                  "answer": "@UI.currencyCode",
+                  "correct": false
+              },
+              {
+                  "answer": "@Semantics.currency",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What are the main characteristics of a search field in SAP Fiori element-based applications? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "No value help dialog ",
+                  "correct": true
+              },
+              {
+                  "answer": "Supports fuzzy search ",
+                  "correct": true
+              },
+              {
+                  "answer": "Provides multiple search fields",
+                  "correct": false
+              },
+              {
+                  "answer": "Finds a keyword in multiply fields ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What annotations are required to declare that an ABAP Core Data System supports search capabilities? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "@Search.possible",
+                  "correct": false
+              },
+              {
+                  "answer": "@Search.searchable ",
+                  "correct": true
+              },
+              {
+                  "answer": "@Search.allowed",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What property is used in the manifest file, to configure how the selection and presentation variants display using a single variant management area? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "variantManagement",
+                  "correct": false
+              },
+              {
+                  "answer": "smartVariantManagement ",
+                  "correct": true
+              },
+              {
+                  "answer": "allowSmartVariantManagement",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What annotation is used to show fields of the projection list in the general information section? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "@UI.headerInfo.field",
+                  "correct": false
+              },
+              {
+                  "answer": "@UI.lineItem.ident",
+                  "correct": false
+              },
+              {
+                  "answer": "@UI.identification ",
+                  "correct": true
+              },
+              {
+                  "answer": "@UI.ident",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What attribute is assigned to the @UI.fieldGroup to add an identifier? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "identify",
+                  "correct": false
+              },
+              {
+                  "answer": "quantify",
+                  "correct": false
+              },
+              {
+                  "answer": "qualifier ",
+                  "correct": true
+              },
+              {
+                  "answer": "identifier",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What is the purpose of a build server? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Used for code review",
+                  "correct": false
+              },
+              {
+                  "answer": "Provides software that allows continuous integration. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Used for version control",
+                  "correct": false
+              },
+              {
+                  "answer": "Manages components, builds artifacts, and releases candidates in one central location",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What goals are achieved by a Lean Development Infrastructure? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Allows for faster innovation through independently released and serial versions of components ",
+                  "correct": true
+              },
+              {
+                  "answer": "Either automates or provides self-service response ",
+                  "correct": true
+              },
+              {
+                  "answer": "Used to increase the development effort",
+                  "correct": false
+              },
+              {
+                  "answer": "Used for ABAP development with Eclipse Oxygen",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What options are known to consume SAP Fiori apps on mobile clients without using the SDK for iOS or Android? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "SAP Fiori in a browser ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Fiori Client app or custom SAP Fiori Client ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Fiori GUI Client",
+                  "correct": false
+              },
+              {
+                  "answer": "SAP Fiori Mobile with Kapsel SDK ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which of the following user authentication and Single Sign-On mechanisms are supported by the SAP Fiori Client? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "One-Time Password ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAML ",
+                  "correct": true
+              },
+              {
+                  "answer": "Iris scan",
+                  "correct": false
+              },
+              {
+                  "answer": "X.509 client certificates ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What is Apache Cordova? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Apache Cordova is an open-source mobile development framework. ",
+                  "correct": true
+              },
+              {
+                  "answer": "Apache Cordova is the SAP product to run SAP Fiori applications on mobile devices.",
+                  "correct": false
+              },
+              {
+                  "answer": "Apache Cordova is a cloud service to access data from mobile devices.",
+                  "correct": false
+              },
+              {
+                  "answer": "Apache Cordova is the API provided by SAP to access mobile device features.",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which of the following components make up the SAP Web IDE Hybrid App Toolkit? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "SAP Web IDE plugin ",
+                  "correct": true
+              },
+              {
+                  "answer": "Hybrid App Toolkit connector ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Cloud Platform service",
+                  "correct": false
+              },
+              {
+                  "answer": "SAP Hybrid App Toolkit companion ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What features are available in the SAP Web IDE when using the SAP Web IDE plugin from the Hybrid App Toolkit? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Code completion for Cordova and Kapsel plugin APIs ",
+                  "correct": true
+              },
+              {
+                  "answer": "Device Configuration ",
+                  "correct": true
+              },
+              {
+                  "answer": "Deploy and run an app on a target device ",
+                  "correct": true
+              },
+              {
+                  "answer": "Access to iOS-only features",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What is SAP Kapsel? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "SAP specific plug-in for Cordova ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP specific plug-in for Apple iOS",
+                  "correct": false
+              },
+              {
+                  "answer": "SAP specific plug-in for Android",
+                  "correct": false
+              },
+              {
+                  "answer": "SAP Kapsel provides the API to interact from Cordova based web applications to SMP3 and software cloud platforms. ",
+                  "correct": true
+              }
+          ]
+      }
+  ]
+}
