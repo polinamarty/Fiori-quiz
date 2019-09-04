@@ -42,9 +42,17 @@ class App extends Component {
       return array.sort(() => Math.random() - 0.5);
   };
 
+  shuffleQuestionsAndAnswers = questions => {
+     questions = questions.map((question) => {
+       this.shuffle(question.answers);
+       return question;
+     });
+     return this.shuffle(questions);
+  };
+
   fetchQuizQuestions = event => {
     this.props.fetchQuestions(event.currentTarget.id).then(()=>{
-       this.setState({ questions: this.shuffle(this.props.questions) });
+       this.setState({ questions: this.shuffleQuestionsAndAnswers(this.props.questions) });
     })
   };
 
