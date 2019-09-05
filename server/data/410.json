@@ -177,12 +177,29 @@
           ]
       },
       {
-          "question": "What names have the view ports of the SAP Fiori launchpad? Choose the correct answers.\r\nX A Me area Correct!\r\nX B Desktop\r\nX C Workspace Correct!\r\nX D Notification area Correct!\r\n",
+          "question": "What names have the view ports of the SAP Fiori launchpad? Choose the correct answers.",
           "answers": [
               {
-                  "answer": "What is the preferred technology to implement SAP Fiori applications? Choose the correct answer.",
+                  "answer": "Me area",
+                  "correct": true
+              },
+              {
+                  "answer": "Desktop ",
                   "correct": false
               },
+              {
+                  "answer": "Workspace",
+                  "correct": true
+              },
+              {
+                  "answer": "Notification area",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What is the preferred technology to implement SAP Fiori applications? Choose the correct answer.",
+          "answers": [
               {
                   "answer": "Web Dynpro ABAP",
                   "correct": false
