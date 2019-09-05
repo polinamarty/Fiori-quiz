@@ -52,7 +52,7 @@ class App extends Component {
 
   fetchQuizQuestions = event => {
     this.props.fetchQuestions(event.currentTarget.id).then(()=>{
-       this.setState({ questions: this.shuffleQuestionsAndAnswers(this.props.questions) });
+       this.setState({ questions: this.shuffleQuestionsAndAnswers(this.props.questions)});
     })
   };
 
@@ -82,9 +82,11 @@ class App extends Component {
         <div className="control-container">
          <div className="button-container">
             <button className="target-button" id="course" onClick={this.fetchQuizQuestions}>Evolved Web Apps with SAPUI5</button>
+            <button className="target-button" id="100" onClick={this.fetchQuizQuestions}>100</button>
             <button className="target-button" id="402" onClick={this.fetchQuizQuestions}>402</button>
             <button className="target-button" id="403" onClick={this.fetchQuizQuestions}>403</button>
             <button className="target-button" id="410" onClick={this.fetchQuizQuestions}>410</button>
+            <button className="target-button" id="412" onClick={this.fetchQuizQuestions}>412</button>
             <button className="check-button" onClick={this.toggleCheckAnswers}>Check</button>
             {this.props.isAnswersChecked
               ? <div id="errorCount"/>

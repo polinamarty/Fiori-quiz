@@ -1,0 +1,369 @@
+{
+   "questions": [
+      {
+          "question": "Characteristics of Fiori Apps are as follows: Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Role-based ",
+                  "correct": true
+              },
+              {
+                  "answer": "Responsive ",
+                  "correct": true
+              },
+              {
+                  "answer": "Complex",
+                  "correct": false
+              },
+              {
+                  "answer": "Coherent ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "OpenUI5 is the Open-Source-licensed version of SAPUI5: Determine whether this statement is true or false.\r\n",
+          "answers": [
+              {
+                  "answer": "True ",
+                  "correct": true
+              },
+              {
+                  "answer": "False",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "SAP Fiori Apps have been tested in browsers on the devices with the following OS: Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "iOS ",
+                  "correct": true
+              },
+              {
+                  "answer": "BlackBerry OS",
+                  "correct": false
+              },
+              {
+                  "answer": "Windows Phone ",
+                  "correct": true
+              },
+              {
+                  "answer": "Android ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "SAP Fiori Client on a mobile device offers the following features: Choose the correct answers.",
+          "answers": [
+              {
+                  "answer": "Better Caching and better performance ",
+                  "correct": true
+              },
+              {
+                  "answer": "Uses the widely used Apache Cordova architecture ",
+                  "correct": true
+              },
+              {
+                  "answer": "Device specific web application is developed",
+                  "correct": false
+              },
+              {
+                  "answer": "Development of security modules for each Application",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "SAP WebIDE Hybrid App Toolkit has the following components: Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "SAP WebIDE Plugin ",
+                  "correct": true
+              },
+              {
+                  "answer": "Hybrid App Toolkit Connector ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Hyrbid App Toolkit Companion App ",
+                  "correct": true
+              },
+              {
+                  "answer": "Hana Cloud Platform Connector",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Each application needs to be packaged with the SAP Hybrid App Toolkit Companion App to preview the application: Determine whether this statement is true or false.\r\n",
+          "answers": [
+              {
+                  "answer": "True",
+                  "correct": false
+              },
+              {
+                  "answer": "False ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "HANA Cloud Platform mobility services offers the following functionality: Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Onboarding ",
+                  "correct": true
+              },
+              {
+                  "answer": "App Resources ",
+                  "correct": true
+              },
+              {
+                  "answer": "Analytics ",
+                  "correct": true
+              },
+              {
+                  "answer": "Database Services",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "In defining an Application in the HCPms admin cockpit the following Application ID?s are valid: Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "com.sap.ux.FlightApp ",
+                  "correct": true
+              },
+              {
+                  "answer": "FlightApp ",
+                  "correct": true
+              },
+              {
+                  "answer": "3com.sap.ux.flightApp",
+                  "correct": false
+              },
+              {
+                  "answer": "com.sap.ux!.FlightApp",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Hybrid App Toolkit on Mac installs XCode if its missing: Determine whether this statement is true or false.\r\n",
+          "answers": [
+              {
+                  "answer": "True",
+                  "correct": false
+              },
+              {
+                  "answer": "False ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Select valid SAP Fiori CRM apps: Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "My Accounts ",
+                  "correct": true
+              },
+              {
+                  "answer": "My Leads ",
+                  "correct": true
+              },
+              {
+                  "answer": "Invoices",
+                  "correct": false
+              },
+              {
+                  "answer": "My Tasks ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Select the valid Kapsel plugins available : Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Logon ",
+                  "correct": true
+              },
+              {
+                  "answer": "HCPIntegrator",
+                  "correct": false
+              },
+              {
+                  "answer": "Logger ",
+                  "correct": true
+              },
+              {
+                  "answer": "AppUpdate ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "The cordova plugins and kapsel plugins should be imported into WebIDE before including them into the application Determine whether this statement is true or false.\r\n",
+          "answers": [
+              {
+                  "answer": "True",
+                  "correct": false
+              },
+              {
+                  "answer": "False ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "The following statements are valid for Offline Hybrid applications: Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Each offline store has multiple OData entities from the service ",
+                  "correct": true
+              },
+              {
+                  "answer": "Only data for the defining requests are available in the offline store ",
+                  "correct": true
+              },
+              {
+                  "answer": "On Updating data on the device the applications have to execute a Flush method to post the changes to the backend. ",
+                  "correct": true
+              },
+              {
+                  "answer": "The application uses sql statements with the offline stores",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "The WebIDE Hybrid applications uses SAPUI5 Master Detail kapsel Offline Application template to create an offline: application Determine whether this statement is true or false.\r\n",
+          "answers": [
+              {
+                  "answer": "True ",
+                  "correct": true
+              },
+              {
+                  "answer": "False",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "In HCPms the Offline settings are imported through an ini file: Determine whether this statement is true or false.\r\n",
+          "answers": [
+              {
+                  "answer": "True ",
+                  "correct": true
+              },
+              {
+                  "answer": "False",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "In HCPms the Offline settings, shared data can be configured based on user preferences : Determine whether this statement is true or false.\r\n",
+          "answers": [
+              {
+                  "answer": "True ",
+                  "correct": true
+              },
+              {
+                  "answer": "False",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "SAP WebIDE has a specific template for implementing PushNotifications in Hybrid Applications Determine whether this statement is true or false.\r\n",
+          "answers": [
+              {
+                  "answer": "True",
+                  "correct": false
+              },
+              {
+                  "answer": "False ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "The HCPms platform sends push notifications directly to each device: Determine whether this statement is true or false.\r\n",
+          "answers": [
+              {
+                  "answer": "True",
+                  "correct": false
+              },
+              {
+                  "answer": "False ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "To implement Push Notifications for iOS devices the following pre-requisites are required: Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "A Mac workstation. ",
+                  "correct": true
+              },
+              {
+                  "answer": "An Apple Developer license ",
+                  "correct": true
+              },
+              {
+                  "answer": "An account with Google Cloud Services",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Select the services provided by SAP Fiori Mobile Services: Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Create Native iOS & Android apps via cloud build services ",
+                  "correct": true
+              },
+              {
+                  "answer": "Auto configured Fiori App Store Client ",
+                  "correct": true
+              },
+              {
+                  "answer": "Native Application deployment or import",
+                  "correct": false
+              },
+              {
+                  "answer": "Enterprise Branding & localization ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "In SAP Fiori Mobile Services the Publish, Manage & Monitor includes the following functionality Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "App Analytics ",
+                  "correct": true
+              },
+              {
+                  "answer": "Branding",
+                  "correct": false
+              },
+              {
+                  "answer": "Usage Reporting ",
+                  "correct": true
+              },
+              {
+                  "answer": "Integrated Device Testing ",
+                  "correct": true
+              }
+          ]
+      }
+  ]
+}

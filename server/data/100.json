@@ -1,0 +1,447 @@
+{
+   "questions": [
+      {
+          "question": "Which dimensions define SAP Fiori? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Concept ",
+                  "correct": true
+              },
+              {
+                  "answer": "Design ",
+                  "correct": true
+              },
+              {
+                  "answer": "Performance",
+                  "correct": false
+              },
+              {
+                  "answer": "Technology ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What are the main principles of SAP Fiori ? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Role-based ",
+                  "correct": true
+              },
+              {
+                  "answer": "Adaptive ",
+                  "correct": true
+              },
+              {
+                  "answer": "Simple ",
+                  "correct": true
+              },
+              {
+                  "answer": "Coherent ",
+                  "correct": true
+              },
+              {
+                  "answer": "Delightful ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which clients can be used for SAP Fiori? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Web Browser ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Logon",
+                  "correct": false
+              },
+              {
+                  "answer": "SAP Fiori Client ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Easy Access",
+                  "correct": false
+              },
+              {
+                  "answer": "SAP Business Client ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which platforms support the integration of SAP Fiori? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "SAP Enterprise Portal ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Process Integration",
+                  "correct": false
+              },
+              {
+                  "answer": "SAP HANA Enterprise Cloud",
+                  "correct": false
+              },
+              {
+                  "answer": "SAP Cloud Platform ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Mobile Platform ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which personalization elements can be assigned to user roles? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Fiori Group ",
+                  "correct": true
+              },
+              {
+                  "answer": "Fiori Group Tile",
+                  "correct": false
+              },
+              {
+                  "answer": "Fiori Catalog ",
+                  "correct": true
+              },
+              {
+                  "answer": "Fiori Catalog Tile",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which personalization element refers to the application? Choose the correct answer.\r\n",
+          "answers": [
+              {
+                  "answer": "Fiori Group",
+                  "correct": false
+              },
+              {
+                  "answer": "Fiori Group Tile",
+                  "correct": false
+              },
+              {
+                  "answer": "Fiori Catalog",
+                  "correct": false
+              },
+              {
+                  "answer": "Fiori Catalog Tile ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What are the app types of SAP Fiori? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Transactional ",
+                  "correct": true
+              },
+              {
+                  "answer": "Analytical ",
+                  "correct": true
+              },
+              {
+                  "answer": "Smart",
+                  "correct": false
+              },
+              {
+                  "answer": "Principal",
+                  "correct": false
+              },
+              {
+                  "answer": "Fact Sheet ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which layers of settings are available for SAP Fiori? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Configuration ",
+                  "correct": true
+              },
+              {
+                  "answer": "Personalization ",
+                  "correct": true
+              },
+              {
+                  "answer": "Customizing ",
+                  "correct": true
+              },
+              {
+                  "answer": "Internationalization",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "For intent-based navigation, what does an intent consist of? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Target mapping",
+                  "correct": false
+              },
+              {
+                  "answer": "Semantic object ",
+                  "correct": true
+              },
+              {
+                  "answer": "Action ",
+                  "correct": true
+              },
+              {
+                  "answer": "ICF path",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What can be used as target in a target mapping? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Web Dynpro application ",
+                  "correct": true
+              },
+              {
+                  "answer": "Generic URL",
+                  "correct": false
+              },
+              {
+                  "answer": "ABAP Transaction ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAPUI5 application ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which ABAP transactions can be used to analyze the intents used in target mappings? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "/UI2/FSAC",
+                  "correct": false
+              },
+              {
+                  "answer": "/UI2/FLIA ",
+                  "correct": true
+              },
+              {
+                  "answer": "/UI2/FLC ",
+                  "correct": true
+              },
+              {
+                  "answer": "/UI2/FLP",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "What does a KPI consist of? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Evaluation ",
+                  "correct": true
+              },
+              {
+                  "answer": "Authentication",
+                  "correct": false
+              },
+              {
+                  "answer": "Drill-down ",
+                  "correct": true
+              },
+              {
+                  "answer": "Tile ",
+                  "correct": true
+              },
+              {
+                  "answer": "Indicator",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which system environments offer the UI theme designer? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "SAP Enterprise Portal ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP NetWeaver Application Server ABAP ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Cloud Platform ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP NetWeaver Application Server Java",
+                  "correct": false
+              },
+              {
+                  "answer": "SAP Business Intelligence",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which UI clients does SAP Screen Personas support? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "SAP Business Client ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Fiori Client",
+                  "correct": false
+              },
+              {
+                  "answer": "SAP GUI for Windows ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP GUI for HTML ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP GUI for Java",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "How can you enable adaptation at runtime for SAP Fiori apps? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Target mapping to runtime authoring plugin ",
+                  "correct": true
+              },
+              {
+                  "answer": "Fiori catalog SAP_CA_BC_SSB",
+                  "correct": false
+              },
+              {
+                  "answer": "User role SAP_UI_FLEX_KEY_USER ",
+                  "correct": true
+              },
+              {
+                  "answer": "Fiori catalog /UIF/SAP_RTA_PLUGIN ",
+                  "correct": true
+              },
+              {
+                  "answer": "User role SAP_S_RFCACL",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which benefits are offered by the SAP Fiori Client alone over a web browser? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Full screen ",
+                  "correct": true
+              },
+              {
+                  "answer": "Offline data",
+                  "correct": false
+              },
+              {
+                  "answer": "Delta caching ",
+                  "correct": true
+              },
+              {
+                  "answer": "Push notifications",
+                  "correct": false
+              },
+              {
+                  "answer": "Attachment viewer ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "What can be used as middleware to improve SAP Fiori for mobile? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "SAP Afaria",
+                  "correct": false
+              },
+              {
+                  "answer": "SAP Unwired Platform (SUP)",
+                  "correct": false
+              },
+              {
+                  "answer": "SAP Mobile Platform (SMP) ",
+                  "correct": true
+              },
+              {
+                  "answer": "SAP Cloud Platform Mobile Services ",
+                  "correct": true
+              }
+          ]
+      },
+      {
+          "question": "Which native capabilites of a mobile device can only be leveraged when using SAP Fiori for iOS? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "Touch ID ",
+                  "correct": true
+              },
+              {
+                  "answer": "Camera",
+                  "correct": false
+              },
+              {
+                  "answer": "Facetime ",
+                  "correct": true
+              },
+              {
+                  "answer": "iBeacon ",
+                  "correct": true
+              },
+              {
+                  "answer": "Geolocation",
+                  "correct": false
+              }
+          ]
+      },
+      {
+          "question": "Which shell configurations are available to adapt the header of the app? Choose the correct answers.\r\n",
+          "answers": [
+              {
+                  "answer": "encapsulated",
+                  "correct": false
+              },
+              {
+                  "answer": "embedded ",
+                  "correct": true
+              },
+              {
+                  "answer": "standalone ",
+                  "correct": true
+              },
+              {
+                  "answer": "headerless ",
+                  "correct": true
+              },
+              {
+                  "answer": "footless",
+                  "correct": false
+              }
+          ]
+      }
+  ]
+}

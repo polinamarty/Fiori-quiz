@@ -11,6 +11,9 @@ const port = 8001;
 app.get('/api/course', (req, res) => {
   res.sendFile(path.join(__dirname, 'data', 'course.json'));
 });
+app.get('/api/100', (req, res) => {
+  res.sendFile(path.join(__dirname, 'data', '100.json'));
+});
 app.get('/api/402', (req, res) => {
   res.sendFile(path.join(__dirname, 'data', '402.json'));
 });
@@ -19,6 +22,9 @@ app.get('/api/403', (req, res) => {
 });
 app.get('/api/410', (req, res) => {
   res.sendFile(path.join(__dirname, 'data', '410.json'));
+});
+app.get('/api/412', (req, res) => {
+  res.sendFile(path.join(__dirname, 'data', '412.json'));
 });
 app.listen(port, () => {
   console.log(`[questions] API listening on port ${port}.`);
