@@ -695,8 +695,8 @@
                   "correct": false
               },
               {
-                  "answer": "Having a common UX reduces development costs. You are correct! Having a common UX reduces training costs and increases the quality of data.",
-                  "correct": false
+                  "answer": "Having a common UX reduces development costs.",
+                  "correct": true
               }
           ]
       },
