@@ -7,7 +7,7 @@ class Question extends Component {
 
   static propTypes = {
     question: PropTypes.object.isRequired,
-    questionNumber: PropTypes.number.isRequired,
+    questionNumber: PropTypes.string.isRequired,
     isAnswersChecked: PropTypes.bool.isRequired
   };
 
@@ -21,43 +21,72 @@ class Question extends Component {
     this.setState(prevState => ({ checkedItems: prevState.checkedItems.set(item, isChecked)}));
   };
 
-  getAnswerClassName = (answer, answerId) => {
-    if (this.props.isAnswersChecked) {
-      let questionNumber = this.props.questionNumber.toString();
-      let isAnswerCorrect = answer.correct;
-      let isAnswerSelected = this.state.checkedItems.get(answerId.toString() + questionNumber);
+  componentDidUpdate(prevProps, prevState) {
+      if (prevProps.isAnswersChecked !== this.props.isAnswersChecked) {
+        
+        let questionContainer = document.querySelectorAll('.question-container')[parseInt(this.props.questionNumber)];
+        let answers = Array.from(questionContainer.getElementsByTagName("li"));
 
-      return isAnswerCorrect && isAnswerSelected
-              ? "correct"
-              : isAnswerCorrect && !isAnswerSelected
-                ? "missed"
-                : !isAnswerCorrect && isAnswerSelected
-                  ? "wrong" : "";
-    } else return "";
+        if (this.props.isAnswersChecked === true) {
+          this.setAnswersClassNames(questionContainer, answers);
+        } else {
+          this.resetAnswersClassNames(questionContainer, answers);
+        }
+      }
+  };
+
+  setAnswersClassNames = (questionContainer, answers) => {
+    let isAllAnswersCorrect = true;
+    answers.forEach((answer, idx) => {
+       let answerClassName = this.getAnswerClassName(idx);
+       answer.className = answerClassName;
+       if (answerClassName === "missed" || answerClassName === "wrong") isAllAnswersCorrect = false;
+    });
+    if (!isAllAnswersCorrect) questionContainer.className += " error";
+  };
+
+  resetAnswersClassNames = (questionContainer, answers) => {
+    questionContainer.className = "question-container";
+    answers.forEach((answer) => {
+      answer.className = "answer";
+    });
+  };
+
+  getAnswerClassName = (idx) => {
+    let bindedAnswer = this.props.question.answers[idx];
+    let isAnswerCorrect = bindedAnswer.correct;
+    let isAnswerSelected = this.state.checkedItems.get(idx + this.props.questionNumber);
+    return isAnswerCorrect && isAnswerSelected
+                ? "correct"
+                : isAnswerCorrect && !isAnswerSelected
+                  ? "missed"
+                  : !isAnswerCorrect && isAnswerSelected
+                    ? "wrong" : "";
   };
 
   render() {
     let { question } = this.props;
     let { isAnswersChecked } = this.props;
-    let questionNumber = this.props.questionNumber.toString();
+    let { questionNumber } = this.props;
+    let isQuestionCorrect = this.props.isQuestionCorrect;
 
     return (
       <React.Fragment>
-        <div className="question-container">
-          <div className="question">
+        <div id={questionNumber} className="question-container">
+          <div className="question-wrapper">
             {parseInt(questionNumber) + 1}.{question.question}
           </div>
-          <div className="answer">
+          <ul className="answers-wrapper">
             {question.answers.map((answer, idx) => {
               return(
-              <div className={this.getAnswerClassName(answer, idx)}>
-                <input type="checkbox" id={idx.toString() + questionNumber} onClick={this.handleCheckChange} />
-                <label for={idx}>
+              <li key={idx} className="answer">
+                <input className="answer__checkbox" type="checkbox" id={idx.toString() + questionNumber} onClick={this.handleCheckChange} />
+                <label className="answer__label" htmlFor={idx}>
                   {answer.answer}
                 </label>
-              </div>);
+              </li>);
             })}
-          </div>
+          </ul>
         </div>
       </React.Fragment>
     );

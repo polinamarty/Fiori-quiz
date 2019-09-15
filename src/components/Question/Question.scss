@@ -3,10 +3,11 @@
   flex-direction: column;
   margin: 3%;
 
-  .question {
+  .question-wrapper {
     font-weight: bold;
   }
-  .answer {
+  .answers-wrapper {
+    list-style-type: none;
 
     .correct {
       color: green;
@@ -20,4 +21,8 @@
     }
 
   }
+}
+
+.error {
+  background-color: rgba(255, 61, 61, 0.2);
 }

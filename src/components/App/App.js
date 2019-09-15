@@ -13,7 +13,7 @@ class App extends Component {
        questions: []
    };
 
-  propTypes = {
+  static propTypes = {
     fetchQuestions: PropTypes.func.isRequired,
     checkAnswers: PropTypes.func.isRequired,
     resetAnswers: PropTypes.func.isRequired,
@@ -51,8 +51,10 @@ class App extends Component {
   };
 
   fetchQuizQuestions = event => {
+    this.uncheckAllCheckboxes();
+    if (this.props.isAnswersChecked) this.toggleCheckAnswers();
     this.props.fetchQuestions(event.currentTarget.id).then(()=>{
-       this.setState({ questions: this.shuffleQuestionsAndAnswers(this.props.questions)});
+       this.setState({ questions: this.props.questions});
     })
   };
 
@@ -70,10 +72,14 @@ class App extends Component {
   };
 
   setErrorCount = () => {
-      let errorNodes = Array.from(document.getElementsByClassName("wrong"));
-      let missedNodes = Array.from(document.getElementsByClassName("missed"));
-      document.getElementById("errorCount").innerHTML = `Errors: ${errorNodes.length }, missed: ${missedNodes.length}`;
+      let errorNodes = Array.from(document.getElementsByClassName("error"));
+      document.getElementById("errorCount").innerHTML = `Errors: ${errorNodes.length }`;
 
+  };
+
+  uncheckAllCheckboxes = () => {
+      let checkboxes = Array.from(document.getElementsByClassName("answer__checkbox"));
+      checkboxes.forEach((checkbox) => checkbox.checked = false);
   };
 
   render() {
@@ -95,7 +101,7 @@ class App extends Component {
         </div>
         <div className="content-container">
           <div>
-            {this.state.questions.map((question, index) => <Question question={question} questionNumber={index}/>)}
+            {this.state.questions.map((question, index) => <Question key={index} question={question} questionNumber={index.toString()}/>)}
           </div>
         </div>
       </div>
